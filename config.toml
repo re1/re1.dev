@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://re1.github.io/blog/"
+baseurl = "blog/"
 languageCode = "en"
 title = "re1"
 theme = "cactus"
