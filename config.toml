@@ -1,0 +1,4 @@
+baseURL = "https://re1.at/"
+languageCode = "en"
+title = "re1"
+theme = "cactus"
