@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on re1</title>
-    <link>https://re1.at/blog/posts/</link>
+    <link>https://blog.re1.at/posts/</link>
     <description>Recent content in Posts on re1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://re1.at/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.re1.at/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Watch Netflix on Firefox with custom privacy settings (F7121-1331-P7)</title>
-      <link>https://re1.at/blog/posts/2018/01/19/netflix-firefox-privacy/</link>
+      <link>https://blog.re1.at/posts/2018/01/19/netflix-firefox-privacy/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://re1.at/blog/posts/2018/01/19/netflix-firefox-privacy/</guid>
+      <guid>https://blog.re1.at/posts/2018/01/19/netflix-firefox-privacy/</guid>
       <description>Watch Netflix on Firefox with custom privacy settings (F7121-1331-P7) Just wanted to share some information which could save you a few hours.
 TL;DR: Set privacy.resistFingerprinting to false in about:config.
 If you are watching Netflix on Firefox using a custom configuration based on privacy (like privacytools.io) you might run into an error code like F7121-1331-P7. Netflix recommends reinstalling Firefox but we can do better.
