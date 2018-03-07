@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://re1.at/blog/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="Watch Netflix on Firefox with custom privacy settings (F7121-1331-P7)"/>
+  <meta name="twitter:description" content="Watch Netflix on Firefox with custom privacy settings (F7121-1331-P7) Just wanted to share some information which could save you a few hours.
+TL;DR: Set privacy.resistFingerprinting to false in about:config.
+If you are watching Netflix on Firefox using a custom configuration based on privacy (like privacytools.io) you might run into an error code like F7121-1331-P7. Netflix recommends reinstalling Firefox but we can do better.
+I checked all of my settings and came to the conclusion that privacy."/>
+  
+    <meta name="twitter:site" content="@re1coy"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@Markus Re1"/>
+  
+
+
+
+		
+		<meta name="author" content="Markus Re1">
+		<meta name="description" content="Yet another draggy weblog">
+		<meta name="generator" content="Hugo 0.37" />
+		<title>Watch Netflix on Firefox with custom privacy settings (F7121-1331-P7) &middot; re1</title>
+		<link rel="shortcut icon" href=https://re1.at/blog/images/favicon.ico>
+		<link rel="stylesheet" href=https://re1.at/blog/css/style.css>
+		<link rel="stylesheet" href=https://re1.at/blog/css/highlight.css>
+
+		
+		<link rel="stylesheet" href="https://re1.at/blog/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://re1.at/blog/index.xml" rel="alternate" type="application/rss+xml" title="re1" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://re1.at/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://re1.at/blog/posts'>Archive</a>
+	<a href='https://re1.at/blog/tags'>Tags</a>
+	<a href='https://re1.at/blog/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="https://re1.at/blog/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Watch Netflix on Firefox with custom privacy settings (F7121-1331-P7)
+                    </h1>
+                    <h2 class="headline">
+                    Jan 19, 2018 00:00
+                    · 120 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li><a href="#watch-netflix-on-firefox-with-custom-privacy-settings-f7121-1331-p7">Watch Netflix on Firefox with custom privacy settings (F7121-1331-P7)</a></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<h1 id="watch-netflix-on-firefox-with-custom-privacy-settings-f7121-1331-p7">Watch Netflix on Firefox with custom privacy settings (F7121-1331-P7)</h1>
+
+<p>Just wanted to share some information which could save you a few hours.</p>
+
+<p><strong>TL;DR:</strong> Set <code>privacy.resistFingerprinting</code> to <code>false</code> in <code>about:config</code>.</p>
+
+<p>If you are watching Netflix on Firefox using a custom configuration based on privacy (like <a href="https://www.privacytools.io/#about_config">privacytools.io</a>) you might run into an error code like <code>F7121-1331-P7</code>.
+Netflix recommends reinstalling Firefox but we can do better.</p>
+
+<p>I checked all of my settings and came to the conclusion that <code>privacy.resistFingerprinting</code> should be set to <code>false</code> in about config.
+All other settings mentioned on <a href="https://www.privacytools.io/#about_config">privacytools.io</a> seem to work without problems including:</p>
+
+<ul>
+<li><code>media.peerconnection.*</code> (WebRTC)</li>
+<li><code>privacy.firstparty.isolate</code></li>
+<li><code>privacy.trackingprotection.enabled</code></li>
+<li><code>geo.*</code></li>
+<li><code>network.*</code></li>
+</ul>
+
+<p>If you find some other settings which block this particular service feel free to leave me a note.</p>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fre1.at%2fblog%2fposts%2f2018%2f01%2f19%2fnetflix-firefox-privacy%2f - Watch%20Netflix%20on%20Firefox%20with%20custom%20privacy%20settings%20%28F7121-1331-P7%29 by @re1coy"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.github.com/re1">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/re1coy">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> Markus Re1
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://re1.at/blog/js/jquery-3.3.1.min.js"></script>
+<script src="https://re1.at/blog/js/main.js"></script>
+<script src="https://re1.at/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+    </body>
+</html>

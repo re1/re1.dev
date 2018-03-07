@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>re1</title>
-    <link>https://re1.at/blog/</link>
-    <description>Recent content on re1</description>
+    <title>Posts on re1</title>
+    <link>https://re1.at/blog/posts/</link>
+    <description>Recent content in Posts on re1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://re1.at/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://re1.at/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
