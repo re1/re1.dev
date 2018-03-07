@@ -1,4 +1,75 @@
-baseURL = "https://blog.re1.at/"
+# Site settings
+baseurl = ""
 languageCode = "en"
 title = "re1"
 theme = "cactus"
+# googleAnalytics = "google_analytics_id"
+
+[params]
+	author = "Markus Re1"
+	description = "Yet another draggy weblog"
+	bio = "Software developer addicted to art"
+
+	twitter = "re1coy"
+	facebook = ""
+
+	enableRSS = true
+	enableToc = true
+
+	enableDisqus = false
+	disqusShortname = ""
+
+	enableSummary = true
+	# Set the value to true if use description in post front matter replace content summary
+	useDescriptionReplaceSummary = false
+
+
+	enableGoogleAnalytics = false
+	enableBaiduAnalytics = false
+	# Set the value to your baidu analysis code if you want to use baidu analytics
+	baiduAnalytics = ""
+
+	enableTwitterCard = true
+	# The url for twitter card image, default is avatar.png in static/images directory
+	twitterCardImage = ""
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = ""
+	archive = ""
+	subscribe = ""
+
+	olderPosts = ""
+	newerPosts = ""
+	copyright = ""
+
+	# show latest posts in single page
+	showLatestPosts = false
+	readMore = ""
+
+	# Share
+	enableShare = true
+	tweet = ""
+	share = ""
+
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  socialIconStyle = ""
+
+
+# Add additional social link entries underneath
+[social]
+	twitter-square = "https://www.twitter.com/re1coy"
+	github-square = "https://www.github.com/re1"
