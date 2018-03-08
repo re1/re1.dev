@@ -1,14 +1,15 @@
 # Site settings
 baseurl = "https://blog.re1.at/"
+# baseurl = ""
 languageCode = "en"
-title = "re1"
+title = "Markus Re1"
 theme = "cactus"
-# googleAnalytics = "google_analytics_id"
+googleAnalytics = ""
 
 [params]
 	author = "Markus Re1"
 	description = "Yet another draggy weblog"
-	bio = "Software developer addicted to art"
+	bio = "Software developer addicted to art. Avatar by Kenket."
 
 	twitter = "re1coy"
 	facebook = ""
@@ -65,8 +66,8 @@ theme = "cactus"
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
 	iconFont = "font-awesome"
-  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  socialIconStyle = ""
+  	# The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  	socialIconStyle = "circle"
 
 
 # Add additional social link entries underneath

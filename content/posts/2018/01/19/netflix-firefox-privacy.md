@@ -3,8 +3,6 @@ date = "2018-01-19"
 title = "Watch Netflix on Firefox with custom privacy settings (F7121-1331-P7)"
 +++
 
-# Watch Netflix on Firefox with custom privacy settings (F7121-1331-P7)
-
 Just wanted to share some information which could save you a few hours.
 
 **TL;DR:** Set `privacy.resistFingerprinting` to `false` in `about:config`.
