@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.re1.at/posts/2018/01/19/netflix-firefox-privacy/</loc>
+    <loc>/posts/2018/01/19/netflix-firefox-privacy/</loc>
     <lastmod>2018-01-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.re1.at/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.re1.at/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.re1.at/posts/</loc>
+    <loc>/</loc>
     <lastmod>2018-01-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.re1.at/</loc>
+    <loc>/posts/</loc>
     <lastmod>2018-01-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.re1.at/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
