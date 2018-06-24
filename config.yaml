@@ -1,0 +1,14 @@
+author: "@re1"
+baseUrl: https://re1.at
+languageCode: en
+relativeURLs: true
+theme: mojito
+title: "@re1"
+publishdir: public
+params:
+    description: Yet another draggy weblog
+    bio: Software dev addicted to art
+social:
+    facebook:
+    github: https://www.github.com/re1
+    twitter: re1coy
