@@ -6,11 +6,7 @@ theme: mojito
 title: "@re1"
 publishdir: public
 params:
-    languages:
-        - de
-        - en
     description: Yet another draggy weblog
     subtitle: Software dev addicted to art
-    image: images/re1.png
-    github: https://www.github.com/re1
+    github: re1
     twitter: re1coy
