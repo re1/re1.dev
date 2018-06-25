@@ -12,7 +12,7 @@ params:
     description: Yet another draggy weblog
     bio: Software dev addicted to art
     siteName:
-    type: website
+    type:
     image: images/re1.png
     imageSecureUrl:
     imageType:
