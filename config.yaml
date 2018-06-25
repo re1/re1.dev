@@ -10,25 +10,7 @@ params:
         - de
         - en
     description: Yet another draggy weblog
-    bio: Software dev addicted to art
-    siteName:
-    type:
+    subtitle: Software dev addicted to art
     image: images/re1.png
-    imageSecureUrl:
-    imageType:
-    imageWidth:
-    imageHeight:
-    imageAlt:
-    audio:
-    audioSecureUrl:
-    audioType:
-    video:
-    videoSecureUrl:
-    videoType:
-    videoWidth:
-    videoHeight:
-    videoAlt:
-    determiner:
-    facebook:
     github: https://www.github.com/re1
     twitter: re1coy
