@@ -6,7 +6,7 @@ theme: mojito
 title: "@re1"
 publishdir: public
 params:
-    languageAlternatives:
+    languages:
         - de
         - en
     description: Yet another draggy weblog
