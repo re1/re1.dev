@@ -11,8 +11,8 @@ mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
 
-echo "Checkout gh-pages"
-git worktree add -B gh-pages public origin/gh-pages
+echo "Checkout master"
+git worktree add -B master public origin/master
 
 echo "Remove existing files"
 rm -rf public/*
@@ -20,8 +20,8 @@ rm -rf public/*
 echo "Generate site"
 hugo
 
-echo "Update gh-pages"
-cd public && git add --all && git commit -m "Deploy to gh-pages (deploy.sh)" && cd ..
+echo "Update master"
+cd public && git add --all && git commit -m "Deploy to master (deploy.sh)" && cd ..
 
-echo "Deploy to gh-pages"
-git push origin gh-pages
+echo "Deploy to master"
+git push origin master
