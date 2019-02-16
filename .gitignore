@@ -1,11 +1,4 @@
-
-# Created by https://www.gitignore.io/api/hugo
-
-### Hugo ###
-hugo.exe
-/public/
-
-# End of https://www.gitignore.io/api/hugo
-
-# Jetbrains
-.idea/
+node_modules
+_site/
+package-lock.json
+yarn.lock

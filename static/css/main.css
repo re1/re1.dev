@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'iAWriterDuospace';
+    src: url('../fonts/iAWriterDuospace-Regular.eot');
+    src: url('../fonts/iAWriterDuospace-Regular.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/iAWriterDuospace-Regular.woff') format('woff'),
+        url('../fonts/iAWriterDuospace-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'iAWriterDuospace';
+    src: url('../fonts/iAWriterDuospace-RegularItalic.eot');
+    src: url('../fonts/iAWriterDuospace-RegularItalic.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/iAWriterDuospace-RegularItalic.woff') format('woff'),
+        url('../fonts/iAWriterDuospace-RegularItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'iAWriterDuospace';
+    src: url('../fonts/iAWriterDuospace-Bold.eot');
+    src: url('../fonts/iAWriterDuospace-Bold.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/iAWriterDuospace-Bold.woff') format('woff'),
+        url('../fonts/iAWriterDuospace-Bold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'iAWriterDuospace';
+    src: url('../fonts/iAWriterDuospace-BoldItalic.eot');
+    src: url('../fonts/iAWriterDuospace-BoldItalic.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/iAWriterDuospace-BoldItalic.woff') format('woff'),
+        url('../fonts/iAWriterDuospace-BoldItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 1.2rem/1.7 iAWriterDuospace, serif;
+}
+
+.container {
+    margin: 2em;
+}

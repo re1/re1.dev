@@ -1,0 +1,179 @@
+//
+// No vertical properties (http://ogp.me/#no_vertical) are grouped together
+// using the variable `obj` variable as an alias
+//
+
+// Mobile
+meta(name="HandheldFriendly" content="True")
+meta(name="MobileOptimized" content="320")
+meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+
+// Additional Information
+if description
+    meta(name="description" content=description)
+if twitter
+    meta(property="twitter:site" content="@#{twitter}")
+
+// Basic OpenGraph properties
+meta(property="og:title" content=title)
+meta(property="og:url" content=url)
+meta(property="og:locale" content=lang)
+
+// Extended OpenGraph protocol
+if og
+    if og.description
+    meta(property="og:description" content=og.description)
+
+    // Image
+    if typeof og.image == 'string'
+        meta(property="og:image" content=ö)
+    else
+        each val in og.image
+            if val.url
+                meta(property="og:image" content=val.url)
+                meta(property="og:image:url" content=val.url)
+            if val.secureUrl
+                meta(property="og:image:secure_url" content=val.secureUrl)
+            if val.type
+                meta(property="og:image:type" content=val.type)
+            if val.width
+                meta(property="og:image:width" content=val.width)
+            if val.height
+                meta(property="og:image:height" content=val.height)
+            if val.alt
+                meta(property="og:image:alt" content=val.alt)
+
+    // Audio
+    if typeof og.audio == 'string'
+        meta(property="og:audio" content=og.audio)
+    else
+        each val in og.audio
+            if val.url
+                meta(property="og:audio" content=val.url)
+                meta(property="og:audio:url" content=val.url)
+            if val.secureUrl
+                meta(property="og:audio:secure_url" content=val.secureUrl)
+            if val.type
+                meta(property="og:audio:type" content=val.type)
+
+    // Video
+    if typeof og.video == 'string'
+        meta(property="og:video" content=og.video)
+    else
+        each val in og.video
+            meta(property="og:video" content=val.url)
+            meta(property="og:video:url" content=val.url)
+        if val.secureUrl
+            meta(property="og:video:secure_url" content=val.secureUrl)
+        if val.type
+            meta(property="og:video:type" content=val.type)
+        if val.width
+            meta(property="og:video:width" content=val.width)
+        if val.height
+            meta(property="og:video:height" content=val.height)
+        if val.alt
+            meta(property="og:video:alt" content=val.alt)
+
+    // Determiner
+    if og.determiner
+        meta(property="og:determiner" content=og.determiner)
+
+    // Site name
+    if og.siteName
+        meta(property="og:site_name" content=og.siteName)
+
+    // Alternative languages
+    each val in og.alternateLangs
+        meta(property="og:locale:alternate" content=val)
+
+    // Types
+    meta(property="og:type" content=og.type ? og.type : "website")
+
+    // Article
+    - var obj = og.article
+    if typeof(obj.author) == 'string'
+        meta(property="article:author" content=obj.author)
+    else
+        each val in obj.author
+            meta(property="article:author" content=val)
+    if obj.published
+        meta(property="article:published_time" content=obj.published)
+    if obj.modified
+        meta(property="article:modified_time" content=obj.modified)
+    if obj.expiration
+        meta(property="article:expiration_time" content=obj.expiration)
+    if obj.section
+        meta(property="article:section" content=obj.section)
+    each val in obj.tag
+        meta(property="article:tag" content=val)
+
+    // Book
+    - var obj = og.book
+    if typeof(obj.author) == 'string'
+        meta(property="book:author" content=obj.author)
+    else
+        each val in ö
+            meta(property="book:author" content=val)
+    if obj.isbn
+        meta(property="book:isbn" content=obj.isbn)
+    if obj.release
+        meta(property="book:release_date" content=obj.release)
+    each val in obj.tag
+        meta(property="book:tag" content=val)
+
+    // Profile
+    - var obj = og.profile
+    if obj.firstName
+        meta(property="profile:first_name" content=obj.firstName)
+    if obj.lastName
+        meta(property="profile:last_name" content=obj.lastName)
+    if obj.userName
+        meta(property="profile:username" content=obj.username)
+    if obj.gender
+        meta(property="profile:gender" content=obj.gender)
+
+    // Music
+    - var obj = og.music
+    each val in obj.creator
+        meta(property="music:creator" content=val)
+    each val in obj.musician
+        meta(property="music:musician" content=val)
+    if obj.releaseDate
+        meta(property="music:release_date" content=obj.releaseDate)
+
+    - var obj = og.music.album
+    if obj.name
+        meta(property="music:album" content=obj.name)
+    if obj.disk
+        meta(property="music:album:disc" content=obj.disk)
+    if obj.track
+        meta(property="music:album:track" content=obj.track)
+
+    - var obj = og.music.song
+    if obj.duration
+        meta(property="music:duration" content=val.duration)
+    if obj.name
+        meta(property="music:song" content=val.name)
+    if obj.disk
+        meta(property="music:song:disc" content=obj.disk)
+    if obj.track
+        meta(property="music:song:track" content=obj.track)
+
+    // Video
+    - var obj = og.video
+    each val in obj.actor.name
+        meta(property="video:actor" content=val)
+    if obj.actor.role
+        meta(property="video:actor:role" content=obj.actor.role)
+    each val in obj.director
+        meta(property="video:director" content=val)
+    each val in obj.writer
+        meta(property="video:writer" content=val)
+    if obj.duration
+        meta(property="video:duration" content=obj.duration)
+    if obj.releaseDate
+        meta(property="video:release_date" content=obj.releaseDate)
+    if obj.tvShow
+        meta(property="video:tv_show" content=obj.tvShow)
+    each val in obj.tag
+        meta(property="video:tag" content=val)
