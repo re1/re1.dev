@@ -1,60 +1,52 @@
-@font-face {
-    font-family: 'iAWriterDuospace';
-    src: url('../fonts/iAWriterDuospace-Regular.eot');
-    src: url('../fonts/iAWriterDuospace-Regular.eot?#iefix')
-            format('embedded-opentype'),
-        url('../fonts/iAWriterDuospace-Regular.woff') format('woff'),
-        url('../fonts/iAWriterDuospace-Regular.woff2') format('woff2');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700|IBM+Plex+Serif");
 
-@font-face {
-    font-family: 'iAWriterDuospace';
-    src: url('../fonts/iAWriterDuospace-RegularItalic.eot');
-    src: url('../fonts/iAWriterDuospace-RegularItalic.eot?#iefix')
-            format('embedded-opentype'),
-        url('../fonts/iAWriterDuospace-RegularItalic.woff') format('woff'),
-        url('../fonts/iAWriterDuospace-RegularItalic.woff2') format('woff2');
-    font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: 'iAWriterDuospace';
-    src: url('../fonts/iAWriterDuospace-Bold.eot');
-    src: url('../fonts/iAWriterDuospace-Bold.eot?#iefix')
-            format('embedded-opentype'),
-        url('../fonts/iAWriterDuospace-Bold.woff') format('woff'),
-        url('../fonts/iAWriterDuospace-Bold.woff2') format('woff2');
-    font-style: normal;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: 'iAWriterDuospace';
-    src: url('../fonts/iAWriterDuospace-BoldItalic.eot');
-    src: url('../fonts/iAWriterDuospace-BoldItalic.eot?#iefix')
-            format('embedded-opentype'),
-        url('../fonts/iAWriterDuospace-BoldItalic.woff') format('woff'),
-        url('../fonts/iAWriterDuospace-BoldItalic.woff2') format('woff2');
-    font-style: italic;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-}
-
+html,
 body {
     margin: 0;
     padding: 0;
 }
 
 html {
-    font: 1.2rem/1.7 iAWriterDuospace, serif;
+    font: 1.1rem/1.7 "IBM Plex Serif", serif;
 }
 
-.container {
-    margin: 2em;
+span {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+body {
+    background-color: #ecece0;
+    color: #3b324a;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.bunny {
+    margin-top: 1rem;
+    max-width: 45vw;
+    min-width: 235px;
+    max-height: 45vh;
+    height: auto;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+}
+
+@keyframes roll {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+#roll {
+    display: none;
+}
+
+#roll:checked + label .bunny {
+    animation-name: roll;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
 }

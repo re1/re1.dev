@@ -1,10 +1,15 @@
 extends _includes/layout.pug
 
 block content
-    main.container
-        h1= site.title
-        h2= site.subtitle
+    main
+        h1 I am 
+            span= site.author
 
-        p I am a software developer and this is a work in progress, have a hopping bunny!
+        p I am a software developer and this is a 
+            span
+                b Work in progress
+            |  have a sleeping bunny!
 
-        img(alt='bunny' src='static/images/bunny.gif' style='width:50%;max-width:320px')
+        input#roll(type="checkbox")
+        label(for="roll")
+            img.bunny(alt='bunny' src='static/images/bunny.png')
