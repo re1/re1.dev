@@ -1,52 +1,43 @@
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700|IBM+Plex+Serif");
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700|IBM+Plex+Serif');
 
 html,
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font: 1.1rem/1.7 "IBM Plex Serif", serif;
+  font: 1.1rem/1.7 'IBM Plex Serif', serif;
 }
 
 span {
-    font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 body {
-    background-color: #ecece0;
-    color: #3b324a;
-    margin: 0 auto;
-    width: 80%;
+  background-color: #ecece0;
+  color: #3b324a;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .bunny {
-    margin-top: 1rem;
-    max-width: 45vw;
-    min-width: 235px;
-    max-height: 45vh;
-    height: auto;
-    image-rendering: crisp-edges;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: pixelated;
-}
-
-@keyframes roll {
-    from {
-        -moz-transform: rotate(0deg);
-    }
-    to {
-        -moz-transform: rotate(360deg);
-    }
+  margin-top: 1rem;
+  max-width: 45vw;
+  min-width: 235px;
+  max-height: 45vh;
+  height: auto;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+  transition: transform 4s;
 }
 
 #roll {
-    display: none;
+  display: none;
 }
 
 #roll:checked + label .bunny {
-    animation-name: roll;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
 }
