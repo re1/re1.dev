@@ -83,9 +83,8 @@ h1 > span {
 }
 
 .bunny .bunny__image {
-  min-width: 358px;
-  max-width: 90vw;
-  min-height: 235px;
+  max-width: 80vw;
+  width: auto;
   height: auto;
   max-height: 45vh;
   image-rendering: crisp-edges;
