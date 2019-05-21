@@ -1,15 +1,24 @@
 extends _includes/layout.pug
 
 block content
-    main
-        h1 I am#{' '}
-            span= site.author
+    header
+        h1 I am #{site.author}
+            span A software developer
 
-        p I am a software developer and this is a#{' '}
-            span
-                b Work in progress
-            | #{' '}have a sleeping bunny!
+    main
+        p This is a work in progress. Have a sleeping bunny!
+
 
         input#roll(type="checkbox")
         label(for="roll")
-            img.bunny(alt='bunny' src='static/images/bunny.png')
+            img.bunny(alt="bunny" src="static/images/bunny.png")
+
+    footer
+        dl.footer__links
+            dt.icon.icon--github
+            dd
+                a(href="https://github.com/" + site.github) @#{site.github}
+
+            dt.icon.icon--twitter
+            dd
+                a(href="https://twitter.com/" + site.twitter) @#{site.twitter}

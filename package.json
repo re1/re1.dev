@@ -1,7 +1,10 @@
 {
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@11ty/eleventy": "^0.7.1",
     "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1"
   }
 }
