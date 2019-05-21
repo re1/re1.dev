@@ -8,10 +8,10 @@ block content
     main
         p This is a work in progress. Have a sleeping bunny!
 
-
-        input#roll(type="checkbox")
-        label(for="roll")
-            img.bunny(alt="bunny" src="static/images/bunny.png")
+        figure.bunny
+            input#bunny.bunny__state(type="checkbox")
+            label.bunny__container(for="bunny")
+                img.bunny__image(alt="A sleeping bunny" src="static/images/bunny.png")
 
     footer
         dl.footer__links
