@@ -29,11 +29,6 @@ a {
   position: relative;
   color: inherit;
   text-decoration: none;
-  text-shadow: 0 1px var(--bg), 0 2px var(--bg), 0 -1px var(--bg),
-    0 -2px var(--bg), 1px 0 var(--bg), 2px 0 var(--bg), -1px 0 var(--bg),
-    -2px 0 var(--bg), 1px 1px var(--bg), 2px 2px var(--bg), -1px -1px var(--bg),
-    -2px -2px var(--bg), -1px 1px var(--bg), -2px 2px var(--bg),
-    1px -1px var(--bg), 2px -2px var(--bg);
 }
 
 a::after {
@@ -64,8 +59,6 @@ a:focus {
   -moz-background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* Text shadow overlays gradient */
-  text-shadow: none;
 }
 
 dd {
