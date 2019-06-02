@@ -20,9 +20,9 @@ html {
 }
 
 body {
-  color: var(--fg);
   margin: 0 auto;
   width: 80%;
+  color: var(--fg);
 }
 
 a {
@@ -46,9 +46,8 @@ a::after {
   width: 100%;
   background-image: linear-gradient(
     to right top,
-    var(--primary),
-    var(--accent) 40%,
-    var(--primary) 70%
+    var(--accent),
+    var(--primary)
   );
   background-size: cover;
 }
@@ -61,12 +60,12 @@ a:focus {
     var(--accent) 30%,
     var(--primary) 60%
   );
-  /* Text shadow overlays gradient */
-  text-shadow: none;
   background-clip: text;
   -moz-background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* Text shadow overlays gradient */
+  text-shadow: none;
 }
 
 dd {
@@ -83,8 +82,8 @@ h1 > span {
 }
 
 .bunny .bunny__image {
-  max-width: 75vw;
   width: auto;
+  max-width: 75vw;
   height: auto;
   max-height: 35vh;
   image-rendering: crisp-edges;
