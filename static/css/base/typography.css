@@ -1,7 +1,6 @@
 body {
   font-family: 'Spectral', 'Droid Serif', 'Times New Roman', Times, serif;
-  font-size: 1.25rem;
-  font-size: calc(1rem + 0.25vw);
+  font-size: calc(80% + 0.4vw);
   line-height: 1.618;
 }
 
