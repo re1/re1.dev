@@ -1,0 +1,48 @@
+body {
+  font: 20px/1.6 'Spectral', 'Droid Serif', serif;
+}
+
+a {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 85%;
+  height: 4%;
+  width: 100%;
+  background-image: linear-gradient(
+    to right top,
+    var(--accent),
+    var(--primary)
+  );
+  background-size: cover;
+}
+
+a:hover,
+a:focus {
+  background-image: linear-gradient(
+    to right top,
+    var(--primary),
+    var(--accent) 30%,
+    var(--primary) 60%
+  );
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 > span {
+  display: block;
+  font-size: 0.5em;
+}
+
+p {
+  max-width: 40em;
+}

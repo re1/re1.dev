@@ -1,0 +1,23 @@
+.bunny {
+  margin: 2rem 0;
+}
+
+.bunny .bunny__image {
+  width: auto;
+  max-width: 75vw;
+  height: auto;
+  max-height: 35vh;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+  transition: transform 4s;
+}
+
+.bunny .bunny__state {
+  display: none;
+}
+
+.bunny input.bunny__state:checked + .bunny__container .bunny__image {
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+}
