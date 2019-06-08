@@ -16,7 +16,7 @@ a::after {
   z-index: -1;
   left: 0;
   top: 85%;
-  height: 4%;
+  height: 0.1em;
   width: 100%;
   background-image: linear-gradient(
     to right top,
