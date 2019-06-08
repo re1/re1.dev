@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral&display=swap');
+
+/*
+Leafy free brush font
+https://wildpicks.design/product/leafy-free-handwriting-brush-font/
+*/
+@font-face {
+  font-family: leafy;
+  src: url('/static/fonts/leafy.woff');
+}
+
 body {
-  font-family: 'Spectral', 'Droid Serif', 'Times New Roman', Times, serif;
+  font-family: 'Spectral', 'Times New Roman', Times, serif;
   font-size: calc(16px + 0.3vw);
-  line-height: 1.618;
+  line-height: 1.6;
 }
 
 a {
@@ -16,7 +27,7 @@ a::after {
   z-index: -1;
   left: 0;
   top: 85%;
-  height: 0.1em;
+  height: 0.05em;
   width: 100%;
   background-image: linear-gradient(
     to right top,
@@ -38,11 +49,6 @@ a:focus {
   -moz-background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-h1 > span {
-  display: block;
-  font-size: 0.5em;
 }
 
 p {

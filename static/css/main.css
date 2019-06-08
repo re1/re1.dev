@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Spectral&display=swap');
-
 /* Libs */
 @import url('/static/css/libs/vars.css');
 /* Base */
@@ -8,6 +6,7 @@
 /* Components */
 @import url('/static/css/components/bunny.css');
 @import url('/static/css/components/footer.css');
+@import url('/static/css/components/header.css');
 
 html,
 body {
@@ -16,11 +15,16 @@ body {
 }
 
 body {
-  margin: 1em auto;
+  margin: 2em auto;
   width: 80%;
   color: var(--fg);
 }
 
 dd {
   margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }

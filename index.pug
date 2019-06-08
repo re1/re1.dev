@@ -2,8 +2,12 @@ extends _includes/layout.pug
 
 block content
     header
-        h1 I am #{site.author}
-            span A software developer
+        nav
+            ul
+                li.logo
+                    strong.logo__name I am #{site.author}
+                    br
+                    | a software developer
 
     main
         p This is a work in progress. Have some cat ipsum and a sleeping bunny!
@@ -13,7 +17,7 @@ block content
         figure.bunny
             input#bunny.bunny__state(type="checkbox")
             label.bunny__container(for="bunny")
-                img.bunny__image(alt="A sleeping bunny" src="static/images/bunny.png")
+                img.bunny__image(alt="A sleeping bunny" loading="auto" src="static/images/bunny.png")
 
     footer
         dl.footer__links
