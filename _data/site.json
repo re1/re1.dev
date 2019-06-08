@@ -1,9 +1,10 @@
 {
-    "author": "re1",
-    "title": "re1 – Software developer",
-    "description": "Yet another draggy weblog",
-    "lang": "en",
-    "publishdir": "public",
-    "github": "re1",
-    "twitter": "_re1tw"
+  "author": "re1",
+  "title": "re1 – Software developer",
+  "description": "Yet another draggy weblog",
+  "url": "re1.at",
+  "lang": "en",
+  "publishdir": "public",
+  "github": "re1",
+  "twitter": "_re1tw"
 }
