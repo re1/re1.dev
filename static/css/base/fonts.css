@@ -58,7 +58,7 @@ Leafy free brush font
 https://wildpicks.design/product/leafy-free-handwriting-brush-font/
 */
 @font-face {
-  font-family: leafy;
+  font-family: 'Leafy';
   src: url('/static/fonts/leafy.woff') format('woff'),
     url('/static/fonts/leafy.otf') format('opentype');
 }

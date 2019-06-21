@@ -17,7 +17,7 @@ a::after {
   z-index: -1;
   left: 0;
   top: 85%;
-  height: 0.05em;
+  height: 0.1rem;
   width: 100%;
   background-image: linear-gradient(
     to right top,
@@ -31,9 +31,9 @@ a:hover,
 a:focus {
   background-image: linear-gradient(
     to right top,
+    var(--accent),
     var(--primary),
-    var(--accent) 30%,
-    var(--primary) 60%
+    var(--accent)
   );
   background-clip: text;
   -moz-background-clip: text;
@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: leafy;
+  font-family: 'Leafy';
 }
 
 p {
