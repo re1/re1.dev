@@ -48,25 +48,36 @@ h5,
 h6 {
   position: relative;
   width: max-content;
+  max-width: 100%;
 
   font-family: 'Lazer84', 'Times New Roman', Times, serif;
   letter-spacing: 0.1em;
 }
 
-h2::after {
+h1::after,
+h2::after,
+h3::after {
   border-top-left-radius: 100%;
-  border-top-right-radius: 75%;
+  border-top-right-radius: 25%;
   border-bottom-left-radius: 25%;
   border-bottom-right-radius: 100%;
   content: '';
   position: absolute;
   z-index: -1;
-  left: -7.5%;
-  top: 60%;
-  height: 25%;
-  width: 110%;
+  left: -0.75rem;
+  top: 55%;
+  height: 30%;
+  width: calc(100% + 1rem);
   background-color: var(--accent);
   background-size: cover;
+}
+
+h1::after {
+  background-color: var(--primary);
+}
+
+h2::after {
+  background-color: var(--secondary);
 }
 
 p {
