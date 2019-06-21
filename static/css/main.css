@@ -1,6 +1,7 @@
 /* Libs */
 @import url('/static/css/libs/vars.css');
 /* Base */
+@import url('/static/css/base/fonts.css');
 @import url('/static/css/base/scrollbar.css');
 @import url('/static/css/base/typography.css');
 /* Components */

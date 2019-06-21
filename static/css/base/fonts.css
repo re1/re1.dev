@@ -1,0 +1,64 @@
+/*
+Using the following formats based on https://css-tricks.com/typography-for-developers/
+- IE9 Compat Modes        src: url('webfont.eot');
+- IE6-IE8                 url('webfont.eot?#iefix') format('embedded-opentype')
+- Super Modern Browsers   url('webfont.woff2') format('woff2')
+- Pretty Modern Browsers  url('webfont.woff') format('woff')
+- Safari, Android, iOS    url('webfont.ttf')  format('truetype')
+- Legacy iOS              url('webfont.svg#svgFontName') format('svg')
+*/
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/static/fonts/iAWriterQuattroS-Regular.eot');
+  src: url('/static/fonts/iAWriterQuattroS-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('/static/fonts/iAWriterQuattroS-Regular.woff2') format('woff2'),
+    url('/static/fonts/iAWriterQuattroS-Regular.woff') format('woff'),
+    url('/static/fonts/iAWriterQuattroS-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: normal;
+  font-style: italic;
+  src: url('/static/fonts/iAWriterQuattroS-Italic.eot')
+      format('embedded-opentype'),
+    url('/static/fonts/iAWriterQuattroS-Italic.woff2') format('woff2'),
+    url('/static/fonts/iAWriterQuattroS-Italic.woff') format('woff'),
+    url('/static/fonts/iAWriterQuattroS-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/static/fonts/iAWriterQuattroS-Bold.eot')
+      format('embedded-opentype'),
+    url('/static/fonts/iAWriterQuattroS-Bold.woff2') format('woff2'),
+    url('/static/fonts/iAWriterQuattroS-Bold.woff') format('woff'),
+    url('/static/fonts/iAWriterQuattroS-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: bold;
+  font-style: italic;
+  src: url('/static/fonts/iAWriterQuattroS-BoldItalic.eot')
+      format('embedded-opentype'),
+    url('/static/fonts/iAWriterQuattroS-BoldItalic.woff2') format('woff2'),
+    url('/static/fonts/iAWriterQuattroS-BoldItalic.woff') format('woff'),
+    url('/static/fonts/iAWriterQuattroS-Regular.ttf') format('truetype');
+}
+
+/*
+Leafy free brush font
+https://wildpicks.design/product/leafy-free-handwriting-brush-font/
+*/
+@font-face {
+  font-family: leafy;
+  src: url('/static/fonts/leafy.woff') format('woff'),
+    url('/static/fonts/leafy.otf') format('opentype');
+}
