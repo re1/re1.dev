@@ -46,7 +46,27 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Leafy';
+  position: relative;
+  width: max-content;
+
+  font-family: 'Lazer84', 'Times New Roman', Times, serif;
+  letter-spacing: 0.1em;
+}
+
+h2::after {
+  border-top-left-radius: 100%;
+  border-top-right-radius: 75%;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 100%;
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: -7.5%;
+  top: 60%;
+  height: 25%;
+  width: 110%;
+  background-color: var(--accent);
+  background-size: cover;
 }
 
 p {

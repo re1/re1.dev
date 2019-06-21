@@ -5,9 +5,12 @@ block content
         nav
             ul
                 li.logo
-                    strong.logo__name I am #{site.author}
-                    br
-                    | a software developer
+                    a(href="https://re1.dev").logo__link
+                        strong.logo__name I am #{site.author}
+                        br
+                        small
+                            b
+                                i a software developer
 
     main
         p This is a 
