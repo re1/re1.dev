@@ -1,6 +1,21 @@
+const htmlmin = require('html-minifier')
+
 module.exports = function(eleventyConfig) {
-  eleventyConfig.setTemplateFormats('pug');
-  eleventyConfig.addPassthroughCopy('static');
+  eleventyConfig.setTemplateFormats('11ty.js,md')
+  eleventyConfig.addPassthroughCopy('static')
+
+  eleventyConfig.addTransform('htmlmin', function(content, outputPath) {
+    if (outputPath.endsWith('.html')) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      })
+      return minified
+    }
+
+    return content
+  })
 
   return {
     passtroughFileCopy: true,
@@ -10,5 +25,5 @@ module.exports = function(eleventyConfig) {
       data: '_data',
       output: '_site',
     },
-  };
-};
+  }
+}

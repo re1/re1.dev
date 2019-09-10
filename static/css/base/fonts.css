@@ -4,7 +4,7 @@ Using the following formats based on https://css-tricks.com/typography-for-devel
 - IE6-IE8                 url('webfont.eot?#iefix') format('embedded-opentype')
 - Super Modern Browsers   url('webfont.woff2') format('woff2')
 - Pretty Modern Browsers  url('webfont.woff') format('woff')
-- Safari, Android, iOS    url('webfont.ttf')  format('truetype')
+- Safari, Android, iOS    url('webfont.ttf') format('truetype')
 - Legacy iOS              url('webfont.svg#svgFontName') format('svg')
 */
 
@@ -65,15 +65,4 @@ Using the following formats based on https://css-tricks.com/typography-for-devel
       format('woff'),
     url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-BoldItalic.ttf')
       format('truetype');
-}
-
-@font-face {
-  font-family: 'Lazer84';
-  src: url('/static/fonts/Lazer84/Lazer84.eot');
-  src: url('/static/fonts/Lazer84/Lazer84.eot?#iefix')
-      format('embedded-opentype'),
-    url('/static/fonts/Lazer84/Lazer84.woff2') format('woff2'),
-    url('/static/fonts/Lazer84/Lazer84.woff') format('woff'),
-    url('/static/fonts/Lazer84/Lazer84.ttf') format('truetype'),
-    url('/static/fonts/Lazer84/Lazer84.svg#lazer84') format('svg');
 }

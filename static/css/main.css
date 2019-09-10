@@ -1,14 +1,3 @@
-/* Libs */
-@import url('/static/css/libs/vars.css');
-/* Base */
-@import url('/static/css/base/fonts.css');
-@import url('/static/css/base/scrollbar.css');
-@import url('/static/css/base/typography.css');
-/* Components */
-@import url('/static/css/components/bunny.css');
-@import url('/static/css/components/footer.css');
-@import url('/static/css/components/header.css');
-
 html,
 body {
   margin: 0;
@@ -19,10 +8,6 @@ body {
   margin: 2em auto;
   width: 80%;
   color: var(--fg);
-}
-
-dd {
-  margin: 0;
 }
 
 nav ul {

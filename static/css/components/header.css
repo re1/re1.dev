@@ -3,9 +3,7 @@
 }
 
 .logo__name {
-  font-family: 'Lazer84', 'Times New Roman', Times, serif;
   font-size: 1.5em;
-  letter-spacing: 0.1em;
 }
 
 a.logo__link {
@@ -13,8 +11,4 @@ a.logo__link {
   margin-left: -0.2em;
   padding-top: 0.3em;
   padding-left: 0.2em;
-}
-
-a.logo__link::after {
-  background-image: none;
 }

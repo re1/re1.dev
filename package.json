@@ -1,10 +1,16 @@
 {
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.7.1",
+    "@11ty/eleventy": "^0.9.0-beta.1",
+    "html-minifier": "^4.0.0",
     "pug": "^2.0.3"
   },
   "devDependencies": {
-    "prettier": "^1.17.1"
+    "prettier": "^1.17.1",
+    "prettier-plugin-html-template-literals": "^1.0.5"
+  },
+  "scripts": {
+    "develop": "yarn eleventy --serve",
+    "build": "yarn eleventy"
   }
 }

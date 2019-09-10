@@ -1,6 +1,6 @@
 body {
   font-family: 'iA Writer Quattro', 'IBM Plex Sans', Arial, sans-serif;
-  font-size: calc(1rem + 0.25vw);
+  font-size: calc(1rem + 0.15vw);
   line-height: 1.6;
 }
 
@@ -8,76 +8,6 @@ a {
   position: relative;
   color: inherit;
   text-decoration: none;
-}
-
-a::after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  top: 85%;
-  height: 0.1rem;
-  width: 100%;
-  background-image: linear-gradient(
-    to right top,
-    var(--accent),
-    var(--primary)
-  );
-  background-size: cover;
-}
-
-a:hover,
-a:focus {
-  background-image: linear-gradient(
-    to right top,
-    var(--accent),
-    var(--primary),
-    var(--accent)
-  );
-  background-clip: text;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  position: relative;
-  width: max-content;
-  max-width: 100%;
-
-  font-family: 'Lazer84', 'Times New Roman', Times, serif;
-  letter-spacing: 0.1em;
-}
-
-h1::after,
-h2::after,
-h3::after {
-  border-top-left-radius: 100%;
-  border-top-right-radius: 25%;
-  border-bottom-left-radius: 25%;
-  border-bottom-right-radius: 100%;
-  content: '';
-  position: absolute;
-  z-index: -1;
-  left: -0.75rem;
-  top: 55%;
-  height: 30%;
-  width: calc(100% + 1rem);
-  background-color: var(--accent);
-  background-size: cover;
-}
-
-h1::after {
-  background-color: var(--primary);
-}
-
-h2::after {
-  background-color: var(--secondary);
 }
 
 p {
