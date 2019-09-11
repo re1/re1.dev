@@ -6,7 +6,7 @@ module.exports = class Index {
   }
 
   render() {
-    return `
+    return /*html*/ `
       <header>
         <nav>
           <ul>

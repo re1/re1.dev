@@ -10,6 +10,7 @@ Using the following formats based on https://css-tricks.com/typography-for-devel
 
 @font-face {
   font-family: 'iA Writer Quattro';
+  font-display: auto;
   font-weight: normal;
   font-style: normal;
   src: url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Regular.eot');
@@ -25,6 +26,7 @@ Using the following formats based on https://css-tricks.com/typography-for-devel
 
 @font-face {
   font-family: 'iA Writer Quattro';
+  font-display: auto;
   font-weight: normal;
   font-style: italic;
   src: url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Italic.eot')
@@ -39,6 +41,7 @@ Using the following formats based on https://css-tricks.com/typography-for-devel
 
 @font-face {
   font-family: 'iA Writer Quattro';
+  font-display: auto;
   font-weight: bold;
   font-style: normal;
   src: url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Bold.eot');
