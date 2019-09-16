@@ -14,7 +14,6 @@ module.exports = ({ content, lang, title }) => `
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
       <link rel="stylesheet" href="/static/css/main.css" />
-      <link rel="stylesheet" href="/static/css/libs/vars.css" />
       <link rel="stylesheet" href="/static/css/base/fonts.css" />
       <link rel="stylesheet" href="/static/css/base/typography.css" />
       <link rel="stylesheet" href="/static/css/components/header.css" />
