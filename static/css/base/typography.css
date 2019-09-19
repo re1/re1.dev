@@ -5,12 +5,20 @@ body {
 }
 
 a {
-  position: relative;
   color: inherit;
   text-decoration: none;
 }
 
+p a {
+  font-weight: bold;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 60%,
+    var(--accent) 50%
+  );
+}
+
 p {
-  max-width: 45em; /* Fallback */
+  max-width: 45em; /* fallback for ch unit */
   max-width: 80ch;
 }

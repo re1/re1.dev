@@ -14,8 +14,22 @@ module.exports = class Music {
             <h2>${song.title}</h2>
             <p>${song.artist}</p>
             ${song.note ? `<p>${song.note}</p>` : ''}
-            ${song.spotify ? `<a href="${song.spotify}" rel="external" title="${song.title} on Spotify">Spotify</a>` : ''}
-            ${song.youtube ? `<a href="${song.youtube}" rel="external" title="${song.title} on YouTube">YouTube</a>` : ''}
+            <p>
+            ${
+              song.spotify
+                ? `<a href="${song.spotify}" rel="external" title="${
+                    song.title
+                  } on Spotify">Spotify</a>`
+                : ''
+            }
+            ${
+              song.youtube
+                ? `<a href="${song.youtube}" rel="external" title="${
+                    song.title
+                  } on YouTube">YouTube</a>`
+                : ''
+            }
+            </p>
           `
         )
         .join('')}

@@ -33,7 +33,8 @@ module.exports = class Index {
         
         <p>
           Let's get in touch and have a coffee if you happen to be near Linz or Vienna.<br />
-          → Email: <b><i><a href="mailto:markus@re1.dev" title="Email" rel="me">markus@re1.dev</a></i></b>
+          <!-- not using reL=author here as it is said to increase spam -->
+          → Email: <a href="mailto:markus@re1.dev" title="Email" rel="me">markus@re1.dev</a>
         </p>
       </main>
 
