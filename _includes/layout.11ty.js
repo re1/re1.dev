@@ -1,4 +1,4 @@
-module.exports = ({ content, lang, title }) => `
+module.exports = ({ content, lang, styles, title }) => `
   <!DOCTYPE html>
   <html lang="${lang || 'en'}" prefix="og: http://ogp.me/ns#">
     <head>
@@ -17,6 +17,14 @@ module.exports = ({ content, lang, title }) => `
       <link rel="stylesheet" href="/static/css/base/fonts.css" />
       <link rel="stylesheet" href="/static/css/base/typography.css" />
       <link rel="stylesheet" href="/static/css/components/header.css" />
+      <!-- Include additional stylesheets from style parameter -->
+      ${
+        styles
+          ? styles
+              .map(style => `<link rel="stylesheet" href="${style}" />`)
+              .join('')
+          : ''
+      }
       <!-- Load unimportant CSS asynchronously -->
       <link rel="preload" href="/static/css/base/scrollbar.css" as="style" />
       <link rel="stylesheet" href="/static/css/base/scrollbar.css" media="print" onload="this.media='all'" />

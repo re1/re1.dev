@@ -1,0 +1,10 @@
+.icon-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.icon-list a:not(:last-child) {
+  margin-right: 1em;
+}
