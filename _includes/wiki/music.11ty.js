@@ -2,7 +2,7 @@ module.exports = class Music {
   data() {
     return {
       layout: 'layout',
-      styles: ['/static/css/components/header.css'],
+      styles: ['/static/css/components/music.css'],
     }
   }
 
@@ -29,8 +29,7 @@ module.exports = class Music {
                 song.youtube
                   ? `<a href="${song.youtube}" rel="external" title="${
                       song.title
-                    } on YouTube">
-                    <img src="/static/images/youtube.svg" alt="Youtube logo" width=32></a>`
+                    } on YouTube"><img src="/static/images/youtube.svg" alt="Youtube logo" width=32></a>`
                   : ''
               }
               </footer>
