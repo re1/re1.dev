@@ -1,6 +1,7 @@
 /*
 Using the following formats based on https://css-tricks.com/typography-for-developers/
 - IE9 Compat Modes        src: url('webfont.eot');
+- Local if available      local('webfont')
 - IE6-IE8                 url('webfont.eot?#iefix') format('embedded-opentype')
 - Super Modern Browsers   url('webfont.woff2') format('woff2')
 - Pretty Modern Browsers  url('webfont.woff') format('woff')
@@ -10,11 +11,12 @@ Using the following formats based on https://css-tricks.com/typography-for-devel
 
 @font-face {
   font-family: 'iA Writer Quattro';
-  font-display: auto;
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
   src: url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Regular.eot');
-  src: url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Regular.eot?#iefix')
+  src: local('iA Writer Quattro'),
+    url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Regular.eot?#iefix')
       format('embedded-opentype'),
     url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Regular.woff2')
       format('woff2'),
@@ -26,10 +28,11 @@ Using the following formats based on https://css-tricks.com/typography-for-devel
 
 @font-face {
   font-family: 'iA Writer Quattro';
-  font-display: auto;
+  font-display: swap;
   font-weight: normal;
   font-style: italic;
-  src: url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Italic.eot')
+  src: local('iA Writer Quattro Italic'),
+    url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Italic.eot')
       format('embedded-opentype'),
     url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Italic.woff2')
       format('woff2'),
@@ -41,11 +44,12 @@ Using the following formats based on https://css-tricks.com/typography-for-devel
 
 @font-face {
   font-family: 'iA Writer Quattro';
-  font-display: auto;
+  font-display: swap;
   font-weight: bold;
   font-style: normal;
   src: url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Bold.eot');
-  src: url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Bold.eot')
+  src: local('iA Writer Quattro Bold'),
+    url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Bold.eot')
       format('embedded-opentype'),
     url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-Bold.woff2')
       format('woff2'),
@@ -57,10 +61,12 @@ Using the following formats based on https://css-tricks.com/typography-for-devel
 
 @font-face {
   font-family: 'iA Writer Quattro';
+  font-display: swap;
   font-weight: bold;
   font-style: italic;
   src: url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-BoldItalic.eot');
-  src: url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-BoldItalic.eot')
+  src: local('iA Writer Quattro BoldItalic'),
+    url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-BoldItalic.eot')
       format('embedded-opentype'),
     url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-BoldItalic.woff2')
       format('woff2'),
