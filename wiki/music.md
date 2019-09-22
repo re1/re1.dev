@@ -18,6 +18,11 @@ songs:
     artist: Nujabes, Shing02
     note: Jun Seba was a gifted musician from Japan killed in a traffic collision at age 36. He created Luv(sic.) as a hexalogy with Shing02 who finished the series after Seba's death.
     spotify: https://open.spotify.com/track/4xlpJ99yL9xYQtzG6c3hwk
+  - title: That's Life
+    artist: Frank Sinatra
+    note: Life will get you down so remember to stand up.
+    spotify: https://open.spotify.com/track/4FmCUATNIarCQh72JYdvnm
+    youtube: https://youtu.be/XvfImv9NseY
   - title: Want Me Back
     artist: Cody Fry, Cory Wong, Dynamo
     spotify: https://open.spotify.com/track/64zfaCPwuuPkEtoNt1jzFx
