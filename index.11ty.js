@@ -11,7 +11,7 @@ module.exports = class Index {
         <nav>
           <ul>
             <li class="logo">
-              <a href="https://re1.at" class="logo__link">
+              <a href="https://re1.dev" class="logo__link">
                 <strong class="logo__name">→ re1</strong><br>
                 <small>
                   <b><i>web developer</i></b>
@@ -25,7 +25,7 @@ module.exports = class Index {
       <br />
 
       <main>
-        <p>Hi there 👋</p>
+        <p>Hi there!</p>
         
         <p>I'm Markus, a front-end web developer based in Vienna, Austria.</p>
         
@@ -34,7 +34,7 @@ module.exports = class Index {
         <p>
           Let's get in touch and have a coffee if you happen to be near Linz or Vienna.<br />
           <!-- not using rel=author here as it is said to increase spam -->
-          → Email: <a href="mailto:markus@re1.dev" title="Email" rel="me">markus@re1.dev</a>
+          → <i><a href="mailto:markus@re1.dev" title="Email" rel="me">markus@re1.dev</a></i>
         </p>
       </main>
 
