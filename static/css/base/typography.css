@@ -11,7 +11,12 @@ a {
 
 p a {
   font-weight: bold;
-  box-shadow: inset 0 -0.5em 0 var(--accent);
+  box-shadow: inset 0 -0.4em 0 var(--accent);
+  transition: box-shadow 0.3s;
+}
+
+p a:hover {
+  box-shadow: inset 0 -1.2em var(--accent);
 }
 
 p {
