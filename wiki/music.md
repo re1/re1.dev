@@ -18,6 +18,9 @@ songs:
     artist: Nujabes, Shing02
     note: Jun Seba was a gifted musician from Japan killed in a traffic collision at age 36. He created Luv(sic.) as a hexalogy with Shing02 who finished the series after Seba's death.
     spotify: https://open.spotify.com/track/4xlpJ99yL9xYQtzG6c3hwk
+  - title: Summer sun
+    artist: Effi
+    spotify: https://open.spotify.com/track/0IxdOxoq0dyMUu6xwLkRA9
   - title: That's Life
     artist: Frank Sinatra
     note: Life will get you down so remember to stand up.
