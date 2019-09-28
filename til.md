@@ -2,7 +2,7 @@
 title: TIL – Today I learned
 layout: layout
 styles:
-  - /static/css/vendor/prism.css
+  - /static/css/prism.css
 ---
 
 # TIL – Today I learned
@@ -17,7 +17,7 @@ CSS **`box-shadow`** values are animatable.
 
 ```css
 a {
-  box-shadow: inset 0 -0.4em 0 #0000ff;
+  box-shadow: inset 0 -0.4em 0 #00ff00;
   transition: box-shadow 0.3s;
 }
 
