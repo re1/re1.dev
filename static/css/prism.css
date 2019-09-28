@@ -9,6 +9,7 @@ pre[class*='language-'] {
   background: none;
   font-family: 'Fira Code', 'Fira Mono', Consolas, Menlo, monospace;
   font-size: 1em;
+  font-size: calc(0.9em + 0.1vw);
   text-align: left;
   white-space: pre;
   word-spacing: normal;
