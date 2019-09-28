@@ -1,9 +1,9 @@
 ---
-title: Visual Studio Code Plugins
+title: Visual Studio Code extensions
 layout: layout
 ---
 
-# Visual Studio Code Plugins
+# Visual Studio Code extensions
 
 ## Ayu
 

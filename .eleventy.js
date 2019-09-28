@@ -1,8 +1,11 @@
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const htmlmin = require('html-minifier')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.setTemplateFormats('11ty.js,md')
   eleventyConfig.addPassthroughCopy('static')
+  // add syntax highlighting plugin
+  eleventyConfig.addPlugin(syntaxHighlight)
   // minify html using html-minifier
   eleventyConfig.addTransform('htmlmin', function(content, outputPath) {
     if (outputPath.endsWith('.html')) {
