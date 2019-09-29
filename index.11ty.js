@@ -10,14 +10,16 @@ module.exports = class Index {
       <header>
         <nav>
           <ul>
-            <li class="logo">
-              <a href="https://re1.dev" class="logo__link">
+            <li>
+              <a href="/" class="logo">
                 <strong class="logo__name">→ re1</strong><br>
-                <small>
-                  <b><i>web developer</i></b>
-                </small>
+                <small><b><i>web developer</i></b></small>
               </a>
             </li>
+            <li>
+              <a href="/til" title="Today I learned">TIL</a>
+            </li>
+            <li><a href="/wiki">Wiki</a></li>
           </ul>
         </nav>
       </header>
