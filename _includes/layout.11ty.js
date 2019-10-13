@@ -1,4 +1,4 @@
-module.exports = ({ content, lang, styles, title }) => `
+module.exports = ({ content, lang, styles, title }) => /* html */ `
   <!DOCTYPE html>
   <html lang="${lang || 'en'}" prefix="og: http://ogp.me/ns#">
     <head>
@@ -39,6 +39,23 @@ module.exports = ({ content, lang, styles, title }) => `
       <link rel="manifest" href="/static/favicons/site.webmanifest" />
     </head>
     <body>
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="/" class="logo">
+                <strong class="logo__name">→ re1</strong><br>
+                <small><b><i>web developer</i></b></small>
+              </a>
+            </li>
+            <li>
+              <a href="/til" title="Today I learned">TIL</a>
+            </li>
+            <li><a href="/wiki">Wiki</a></li>
+          </ul>
+        </nav>
+      </header>
+    
       ${content}
     </body>
   </html>

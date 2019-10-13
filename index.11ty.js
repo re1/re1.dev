@@ -7,23 +7,6 @@ module.exports = class Index {
 
   render() {
     return /*html*/ `
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <a href="/" class="logo">
-                <strong class="logo__name">→ re1</strong><br>
-                <small><b><i>web developer</i></b></small>
-              </a>
-            </li>
-            <li>
-              <a href="/til" title="Today I learned">TIL</a>
-            </li>
-            <li><a href="/wiki">Wiki</a></li>
-          </ul>
-        </nav>
-      </header>
-
       <br />
 
       <main>
