@@ -1,7 +1,7 @@
 ---
 title: Music
-layout: wiki/music
-songs:
+layout: wiki/links
+links:
   - title: Have we met before
     artist: Tom Rosenthal, Fenne Lily
     youtube: https://www.youtube.com/watch?v=PoUf7cP61gY
