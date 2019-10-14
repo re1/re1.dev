@@ -7,7 +7,7 @@ code[class*='language-'],
 pre[class*='language-'] {
   color: var(--fg);
   background: none;
-  font-family: 'Fira Code', 'Fira Mono', Consolas, Menlo, monospace;
+  font-family: 'Fira Code', 'Fira Mono', monospace;
   font-size: 1em;
   font-size: calc(0.9em + 0.1vw);
   text-align: left;

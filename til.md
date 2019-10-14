@@ -7,6 +7,32 @@ styles:
 
 # TIL – Today I learned
 
+## TIL #3
+
+The `:placeholder-shown` pseudo class selects `input` elements currently showing a placeholder.
+
+In <cite><a href="https://dev.to/xtrp/possibly-the-most-useful-css-trick-jl3">Possibly the Most Useful CSS Trick</a></cite> Fred Adams is using it to show a search button only when an `input` field has been filled.
+
+```html
+<input placeholder="Search …" />
+```
+
+```html
+<button>Search!</button>
+```
+
+```css
+input + button {
+  display: none;
+}
+
+input:not(:placeholder-shown) + button {
+  display: block;
+}
+```
+
+**Note**: The `::placeholder` pseudo element styles the placeholder text.
+
 ## TIL #2
 
 Editor theme variants are meant to be used on different daytimes.
