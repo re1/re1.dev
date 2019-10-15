@@ -2,6 +2,14 @@
 title: Links
 layout: links
 links:
+  - title: Keeping it simple with CSS that scales
+    link: https://hankchizljaw.com/wrote/keeping-it-simple-with-css-that-scales/
+    author: Andy Bell
+    note: A more honest approach to modern CSS.
+    date: 2019-09-18
+    read: 21 minutes
+    tags:
+      - CSS
   - title: Designing address forms for everyone, everywhere - Shopify UX
     link: https://ux.shopify.com/designing-address-forms-for-everyone-everywhere-f481f6baf513
     author: Virginia Start

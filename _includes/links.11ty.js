@@ -15,7 +15,15 @@ module.exports = class Links {
             <article>
               <h2><a href="${link.title}">${link.title}</a></h2>
               <cite><a href="${link.link}">${link.link}</a></cite>
-              <p><b>Author</b>: ${link.author}</p>
+              <p>
+                <b>Author</b>: ${link.author}
+                ${
+                  link.date
+                    ? `&emsp;<b>Date</b>: ${link.date.toLocaleDateString()}`
+                    : ''
+                }
+                ${link.read ? `&emsp;<b>Read</b>: ${link.read}` : ''}
+              </p>
               ${link.note ? `<p>${link.note}</p>` : ''}
               <ul class="tag-list">
                 ${link.tags.map(tag => `<li>#${tag}</li>&nbsp;`).join('')}
