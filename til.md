@@ -7,6 +7,14 @@ styles:
 
 # TIL – Today I learned
 
+## TIL #4
+
+Vim's `r` modifier suffix from the `expand` command can be used to strip the file extension of a file name which comes in handy when converting files.
+
+```vim
+:! pandoc % -o %:r.pdf
+```
+
 ## TIL #3
 
 The `:placeholder-shown` pseudo class selects `input` elements currently showing a placeholder.
