@@ -14,6 +14,7 @@ module.exports = class List {
           link => `
             <article>
               <h2>${link.title}</h2>
+              ${link.artist ? `<p>${link.artist}</p>` : ''}
               ${link.author ? `<p>${link.author}</p>` : ''}
               ${link.note ? `<p>${link.note}</p>` : ''}
 
