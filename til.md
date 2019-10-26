@@ -7,6 +7,33 @@ styles:
 
 # TIL – Today I learned
 
+## TIL #5
+
+In his post <cite><a href="https://www.filamentgroup.com/lab/load-css-simpler/">The Simplest Way to Load CSS Asynchronously</a></cite> Scott Jehl uses the `media` and `onload` attributes to lazy load CSS.
+
+```html
+<link
+  rel="stylesheet"
+  href="style.css"
+  media="print"
+  onload="this.media='all'"
+/>
+```
+
+This can be combined with link preloading:
+
+```html
+<link rel="preload" href="style.css" as="style" />
+```
+
+Make sure to have a fallback for loading without JavaScript!
+
+```html
+<noscript>
+  <link rel="stylesheet" href="style.css" />
+</noscript>
+```
+
 ## TIL #4
 
 Vim's `r` modifier suffix from the `expand` command can be used to strip the file extension of a file name which comes in handy when converting files.
