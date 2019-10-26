@@ -7,6 +7,10 @@ styles:
 
 # TIL – Today I learned
 
+## TIL #6
+
+When using your OpenPGP keys with a smartcard (like YubiKey) remember to do a backup **before** executing `keytocard`! Keys are not written but moved and will be irretrievable.
+
 ## TIL #5
 
 In his post <cite><a href="https://www.filamentgroup.com/lab/load-css-simpler/">The Simplest Way to Load CSS Asynchronously</a></cite> Scott Jehl uses the `media` and `onload` attributes to lazy load CSS.
