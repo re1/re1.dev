@@ -7,4 +7,6 @@ layout: layout
 
 [Music](/wiki/music)
 
+[Privacy](/wiki/privacy)
+
 [VSCode](/wiki/vscode)
