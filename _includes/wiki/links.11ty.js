@@ -17,6 +17,11 @@ module.exports = class List {
               ${link.artist ? `<p>${link.artist}</p>` : ''}
               ${link.author ? `<p>${link.author}</p>` : ''}
               ${link.note ? `<p>${link.note}</p>` : ''}
+              ${
+                link.link
+                  ? `<p><a href="${link.link}">${link.link}</a></p>`
+                  : ''
+              }
 
               <footer class="icon-list">
               ${

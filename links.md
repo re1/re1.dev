@@ -2,6 +2,13 @@
 title: Links
 layout: links
 links:
+  - title: Designing accessible color systems
+    link: https://stripe.com/en-pt/blog/accessible-color-systems
+    author: Daryl Koopersmith and Wilson Miner
+    date: 2019-10-15
+    tags:
+      - color
+      - ux
   - title: Keeping it simple with CSS that scales
     link: https://hankchizljaw.com/wrote/keeping-it-simple-with-css-that-scales/
     author: Andy Bell

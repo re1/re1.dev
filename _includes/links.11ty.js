@@ -13,7 +13,7 @@ module.exports = class Links {
         .map(
           link => `
             <article>
-              <h2><a href="${link.title}">${link.title}</a></h2>
+              <h2><a href="${link.link}">${link.title}</a></h2>
               <cite><a href="${link.link}">${link.link}</a></cite>
               <p>
                 <b>Author</b>: ${link.author}
