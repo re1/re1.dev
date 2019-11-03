@@ -75,3 +75,17 @@ Using the following formats based on https://css-tricks.com/typography-for-devel
     url('/static/fonts/iAWriterQuattro/iAWriterQuattroS-BoldItalic.ttf')
       format('truetype');
 }
+
+@font-face {
+  font-family: 'Inknut Antiqua';
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+  src: url('/static/fonts/InknutAntiqua/InknutAntiqua-Bold.eot');
+  src: local('Inknut Antiqua Bold'),
+    url('/static/fonts/InknutAntiqua/InknutAntiqua-Bold.eot')
+      format('embedded-opentype'),
+    url('/static/fonts/InknutAntiqua/InknutAntiqua-Bold.woff2') format('woff2'),
+    url('/static/fonts/InknutAntiqua/InknutAntiqua-Bold.woff') format('woff'),
+    url('/static/fonts/InknutAntiqua/InknutAntiqua-Bold.ttf') format('truetype');
+}

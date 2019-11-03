@@ -1,7 +1,17 @@
 body {
   font-family: 'iA Writer Quattro', 'IBM Plex Sans', Arial, sans-serif;
   font-size: 0.95rem;
-  line-height: 1.6;
+  line-height: 1.618;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inknut Antiqua', serif;
+  margin: 1.5em 0 0.5em;
 }
 
 a {

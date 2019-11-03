@@ -14,7 +14,7 @@ module.exports = class Index {
         
         <p>I'm Markus, a front-end web developer based in Vienna, Austria.</p>
         
-        <h1><i>I make websites</i></h1>
+        <h1>I make websites</h1>
         
         <p>
           Let's get in touch and have a coffee if you happen to be near Linz or Vienna.<br />
