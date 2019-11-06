@@ -51,3 +51,42 @@ module.exports = ({ content }) => `
   </html>
 `
 ```
+
+When templating with JSTL the map function and lambda expressions (arrow functions) will become your best friend.
+
+Create a new file `links.11ty.js`:
+
+```js
+module.exports = class Links {
+  data() {
+    return {
+      layout: 'layout',
+    }
+  }
+
+  render({ content, links }) {
+    return /*html*/ `
+      ${content}
+
+      <ul>
+        ${links.map(link => `<li><a href="${link}">${link}</a></li>`).join('')}
+      </ul>
+    `
+  }
+}
+```
+
+Maybe you want to gather useful resources on using JSTL with Eleventy.
+
+Add a file `links.md`:
+
+```md
+---
+layout: links
+links:
+  - https://www.11ty.io/docs/languages/jstl/
+  - https://www.re1.dev/blog/11ty-jstl
+---
+
+# Useful resources on using Eleventy with JSTL
+```
