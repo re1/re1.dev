@@ -2,6 +2,7 @@ body {
   font-family: 'iA Writer Quattro', 'IBM Plex Sans', Arial, sans-serif;
   font-size: 0.95rem;
   line-height: 1.618;
+  word-spacing: -0.1ex;
 }
 
 h1,
@@ -11,6 +12,7 @@ h4,
 h5,
 h6 {
   font-family: 'Inknut Antiqua', serif;
+  word-spacing: initial;
   margin: 1.5em 0 0.5em;
 }
 
@@ -20,13 +22,12 @@ a {
 }
 
 p a {
-  font-weight: bold;
-  box-shadow: inset 0 -0.4em 0 var(--accent);
+  box-shadow: inset 0 -0.1em 0 var(--primary);
   transition: box-shadow 0.3s;
 }
 
 p a:hover {
-  box-shadow: inset 0 -1.2em var(--accent);
+  box-shadow: inset 0 -1.3em var(--accent);
 }
 
 p {

@@ -2,24 +2,23 @@ module.exports = class Index {
   data() {
     return {
       layout: 'layout',
+      styles: ['/static/css/components/hero.css'],
     }
   }
 
   render() {
     return /*html*/ `
-      <br />
-
+      
       <main>
-        <p>Hi there!</p>
-        
-        <p>I'm Markus, a front-end web developer based in Vienna, Austria.</p>
-        
-        <h1>I make websites</h1>
-        
+        <div class="hero">
+          <p class="hero__before">Hi! I'm Markus, a </p>
+          <h1 class="hero__title">front-end web developer.</h1>
+        </div>
+
         <p>
-          Let's get in touch and have a coffee if you happen to be near Linz or Vienna.<br />
+          Let's get in touch and have a coffee if you happen to be in Vienna, Austria!<br />
           <!-- not using rel=author here as it is said to increase spam -->
-          → <i><a href="mailto:markus@re1.dev" title="Email" rel="me">markus@re1.dev</a></i>
+          → <b><i><a href="mailto:markus@re1.dev" title="Email" rel="me">markus@re1.dev</a></i></b>
         </p>
       </main>
 

@@ -1,0 +1,13 @@
+.hero {
+  margin: 3em 0 2em;
+}
+
+.hero__before {
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero__title {
+  margin: 0.25rem 0 0;
+  line-height: 2.5rem;
+}

@@ -5,8 +5,8 @@ layout: layout
 
 # Wiki
 
-[Music](/wiki/music)
+**[Music](/wiki/music)**
 
-[Privacy](/wiki/privacy)
+**[Privacy](/wiki/privacy)**
 
-[VSCode](/wiki/vscode)
+**[VSCode](/wiki/vscode)**
