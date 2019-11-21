@@ -2,6 +2,22 @@
 title: Links
 layout: links
 links:
+  - title: How Discord achieves native iOS performance with React Native
+    link: https://blog.discordapp.com/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502
+    author: Miguel Gaeta
+    date: 2019-11-07
+    read: 16 minutes
+    tags:
+      - react
+      - reactnative
+  - title: 'CSS {In Real Life} | A Modern Front End Workflow Part 1: Building a Project Starter with NPM Script'
+    link: https://css-irl.info/a-modern-front-end-workflow-part-1/
+    author: Michelle Barker
+    date: 2019-28-10
+    tags:
+      - javascript
+      - tooling
+      - workflow
   - title: Designing accessible color systems
     link: https://stripe.com/en-pt/blog/accessible-color-systems
     author: Daryl Koopersmith and Wilson Miner
@@ -16,7 +32,7 @@ links:
     date: 2019-09-18
     read: 21 minutes
     tags:
-      - CSS
+      - css
   - title: Designing address forms for everyone, everywhere - Shopify UX
     link: https://ux.shopify.com/designing-address-forms-for-everyone-everywhere-f481f6baf513
     author: Virginia Start

@@ -48,7 +48,7 @@ module.exports = ({ content, lang, styles, title }) => /* html */ `
             <li>
               <a href="/til" title="Today I learned">TIL</a>
             </li>
-            <li><a href="/wiki">Wiki</a></li>
+            <li><a href="/wiki" title="Wiki">Wiki</a></li>
           </ul>
         </nav>
       </header>
