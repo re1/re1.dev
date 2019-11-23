@@ -6,53 +6,95 @@ module.exports = class List {
     }
   }
 
-  render({ content, links }) {
-    return /*html*/ `
+  icon(icon, iconTitle, iconAlt, link, linkTitle) {
+    return `
+      <a href="${link}" rel="external" title="Find ${linkTitle} on ${iconTitle}">
+        <img src="/static/images/${icon}.svg" alt="${iconAlt}" width=32>
+      </a>`
+  }
+
+  iconLink(link, title) {
+    let url = link.replace('https://', '')
+    url = url.substring(0, url.lastIndexOf('.', url.indexOf('/')))
+    url = url.substring(url.lastIndexOf('.') + 1)
+
+    switch (url) {
+      case 'github':
+        return this.icon('github', 'GitHub', 'GitHub', link, title)
+      case 'spotify':
+        return this.icon('spotify', 'Spotify', 'Spotify', link, title)
+      case 'visualstudio':
+        return this.icon(
+          'vscode',
+          'the Visual Studio Marketplace',
+          'Visual Studio Code',
+          link,
+          title
+        )
+      case 'youtube':
+      case 'youtu':
+        return this.icon('youtube', 'YouTube', 'YouTube', link, title)
+    }
+  }
+
+  render({ content, links, linkHeadings = 'h2' }) {
+    return `
       ${content}
+
       ${links
         .map(
           link => `
             <article>
-              <h2>${link.title}</h2>
-              ${link.artist ? `<p>${link.artist}</p>` : ''}
-              ${link.author ? `<p>${link.author}</p>` : ''}
-              ${link.note ? `<p>${link.note}</p>` : ''}
               ${
                 link.link
-                  ? `<p><a href="${link.link}">${link.link}</a></p>`
+                  ? `<${linkHeadings} class="link-heading"><a href="${
+                      link.link
+                    }">${link.title}</a></${linkHeadings}>`
+                  : `<${linkHeadings}>${link.title}</${linkHeadings}>`
+              }
+              ${
+                link.link
+                  ? `<cite><a href="${link.link}">${link.link}</a></cite>`
                   : ''
               }
 
-              <footer class="icon-list">
               ${
-                link.github
-                  ? `<a href="${link.github}" rel="external" title="Find ${
-                      link.title
-                    } on GitHub"><img src="/static/images/github.svg" alt="GitHub logo" width=32></a>`
+                link.artist || link.author || link.date || link.read
+                  ? `
+                    <p>
+                      ${link.artist ? `${link.artist}` : ''}
+                      ${link.author ? `<b>Author</b>: ${link.author}` : ''}
+                      ${
+                        link.date
+                          ? `&emsp;<b>Date</b>: ${link.date.toLocaleDateString()}`
+                          : ''
+                      }
+                      ${link.read ? `&emsp;<b>Read</b>: ${link.read}` : ''}
+                    </p>`
                   : ''
               }
+
+              ${link.note ? `<p>${link.note}</p>` : ''}
+
               ${
-                link.spotify
-                  ? `<a href="${link.spotify}" rel="external" title="${
-                      link.title
-                    } on Spotify"><img src="/static/images/spotify.svg" alt="Spotify logo" width=32></a>`
+                link.tags
+                  ? `<ul class="tag-list">
+                      ${link.tags.map(tag => `<li>#${tag}</li>&nbsp;`).join('')}
+                    </ul>`
                   : ''
               }
+
               ${
-                link.vscode
-                  ? `<a href="${link.vscode}" rel="external" title="Find ${
-                      link.title
-                    } on the Visual Studio Code marketplace"><img src="/static/images/vscode.svg" alt="Visual Studio Code logo" width=32></a>`
+                link.links
+                  ? `
+                    <footer class="icon-list">
+                    ${link.links
+                      .map(iconLink => this.iconLink(iconLink, link.title))
+                      .join('')}
+                    </footer>
+                  `
                   : ''
               }
-              ${
-                link.youtube
-                  ? `<a href="${link.youtube}" rel="external" title="${
-                      link.title
-                    } on YouTube"><img src="/static/images/youtube.svg" alt="Youtube logo" width=32></a>`
-                  : ''
-              }
-              </footer>
             </article>
           `
         )

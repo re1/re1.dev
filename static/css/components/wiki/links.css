@@ -8,3 +8,20 @@
 .icon-list a:not(:last-child) {
   margin-right: 1em;
 }
+
+.link-heading {
+  margin-bottom: 0;
+}
+
+.link-heading a {
+  display: inline-block; /* use full height of heading block */
+}
+
+.tag-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tag-list li {
+  display: inline;
+}

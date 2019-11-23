@@ -1,4 +1,4 @@
-module.exports = ({ content, lang, styles, title }) => /* html */ `
+module.exports = ({ content, lang, styles, title }) => `
   <!DOCTYPE html>
   <html lang="${lang || 'en'}" prefix="og: http://ogp.me/ns#">
     <head>
