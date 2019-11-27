@@ -1,7 +1,8 @@
 :root {
   --bg: #ffffff;
   --fg: #1b1814;
-  --primary: #e76;
+  --primary: #e66;
+  --primary-light: #6ea;
   --accent: #fd8;
 }
 
@@ -20,4 +21,11 @@ body {
 nav ul {
   list-style-type: none;
   padding: 0;
+}
+
+.dog {
+  float: right;
+  width: 60%;
+  max-width: 16em;
+  margin-bottom: 2em;
 }

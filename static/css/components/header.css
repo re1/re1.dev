@@ -11,5 +11,6 @@ nav ul li:not(:first-child) a {
   margin-left: 1em;
   font-style: italic;
   font-weight: bold;
-  box-shadow: inset 0 -0.1em 0 var(--primary);
+  box-shadow: inset 0 -0.15em 0 var(--primary);
+  --slnt: 'slnt' -10;
 }

@@ -7,8 +7,10 @@ code[class*='language-'],
 pre[class*='language-'] {
   color: var(--fg);
   background: none;
-  font-family: 'Fira Code', 'Fira Mono', monospace;
-  font-size: 1em;
+  font-family: 'Recursive', 'Fira Code', 'Fira Mono', 'IBM Plex Mono',
+    'Roboto Mono', monospace;
+  --mono: 'MONO' 1;
+  --casl: 'CASL' 0.2;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
