@@ -1,10 +1,9 @@
 # Redirect domain aliases to primary domain
-http://re1.at https://re1.dev 301!
-http://re1.at/* https://re1.dev/:splat 301!
-https://re1.at/* https://re1.dev/:splat 301!
-http://www.re1.at https://re1.dev 301!
-http://www.re1.at/* https://re1.dev/:splat 301!
-https://www.re1.at/* https://re1.dev/:splat 301!
+http://re1.at/* https://re1.at/:splat 301!
+http://www.re1.at/* https://re1.at/:splat 301!
+https://www.re1.at/* https://re1.at/:splat 301!
+
+http://re1.dev/* https://re1.dev/:splat 301!
 http://www.re1.dev/* https://re1.dev/:splat 301!
 https://www.re1.dev/* https://re1.dev/:splat 301!
 
