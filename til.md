@@ -7,6 +7,43 @@ styles:
 
 # TIL – Today I learned
 
+## TIL #7
+
+A horizontal bar of variable height can be animated through `background-size` when using a linear gradient background.
+
+```css
+#til-7 + label {
+  background-image: linear-gradient(transparent 60%, #6ea 60%);
+  background-repeat: no-repeat;
+  background-size: 0;
+  transition: all 0.6s;
+}
+
+#til-7:checked + label {
+  background-size: 100%;
+}
+```
+
+```html
+<input id="til-7" type="checkbox" hidden /><label for="til-7">Tap me</label>
+```
+
+<style>
+#til-7 + label {
+  background-image: linear-gradient(transparent 60%, #6ea 60%);
+  background-repeat: no-repeat;
+  background-size: 0;
+  transition: all 0.6s;
+  font-weight: bold;
+}
+
+#til-7:checked + label {
+  background-size: 100%;
+}
+</style>
+
+The result looks like this: <input id="til-7" type="checkbox" hidden /><label for="til-7">Tap me</label>.
+
 ## TIL #6
 
 When using your OpenPGP keys with a smartcard (like YubiKey) remember to do a backup **before** executing `keytocard`! Keys are not written but moved and will be irretrievable.
