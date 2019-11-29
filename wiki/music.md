@@ -32,6 +32,11 @@ links:
     links:
       - https://open.spotify.com/track/4FmCUATNIarCQh72JYdvnm
       - https://youtu.be/XvfImv9NseY
+  - title: The Girl From Ipanema
+    artist: Nat King Cole
+    note: A wonderful interpretation of a Brazilian jazz song.
+    links:
+      - https://open.spotify.com/track/3niaqXwt6bSu5HCXJpaee7
   - title: Want Me Back
     artist: Cody Fry, Cory Wong, Dynamo
     links:
