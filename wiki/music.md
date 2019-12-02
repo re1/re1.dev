@@ -10,7 +10,7 @@ links:
     artist: Martin Centaury, The Space Messengers
     links:
       - https://youtu.be/wKEadqLs_30
-    note: <q>Cause the mean reds blues has taken control</q> 🎵
+    note: Cause the mean reds blues has taken control 🎵
   - title: Lag Fyrir Ömmu
     artist: Ólafur Arnalds
     note: <i>Lag Fyrir Ömmu</i> translates to <i>song for grandma</i>. The artist calls it <q>a tribute to an amazing person and a good friend who I miss dearly</q>.
@@ -37,11 +37,6 @@ links:
     note: A wonderful interpretation of a Brazilian jazz song.
     links:
       - https://open.spotify.com/track/3niaqXwt6bSu5HCXJpaee7
-  - title: Want Me Back
-    artist: Cody Fry, Cory Wong, Dynamo
-    links:
-      - https://open.spotify.com/track/64zfaCPwuuPkEtoNt1jzFx
-      - https://youtu.be/cYELx5Zuj2M
 ---
 
 # Music
