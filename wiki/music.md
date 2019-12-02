@@ -41,4 +41,4 @@ links:
 
 # Music
 
-Songs special enough for me to share.
+Just a bunch of songs I really like.
