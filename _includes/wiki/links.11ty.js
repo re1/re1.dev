@@ -61,16 +61,20 @@ module.exports = class List {
               ${
                 link.artist || link.author || link.date || link.read
                   ? `
-                    <p>
-                      ${link.artist ? `${link.artist}` : ''}
-                      ${link.author ? `<b>Author</b>: ${link.author}` : ''}
+                    <ul class="link-info">
+                      ${link.artist ? `<li>${link.artist}</li>` : ''}
                       ${
-                        link.date
-                          ? `&emsp;<b>Date</b>: ${link.date.toLocaleDateString()}`
+                        link.author
+                          ? `<li><b>Author</b>: ${link.author}</li>`
                           : ''
                       }
-                      ${link.read ? `&emsp;<b>Read</b>: ${link.read}` : ''}
-                    </p>`
+                      ${
+                        link.date
+                          ? `<li><b>Date</b>: ${link.date.toLocaleDateString()}<span>`
+                          : ''
+                      }
+                      ${link.read ? `<li><b>Read</b>: ${link.read}</li>` : ''}
+                    </ul>`
                   : ''
               }
 

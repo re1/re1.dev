@@ -29,3 +29,5 @@ links:
 ---
 
 # Visual Studio Code extensions
+
+Extensions for Visual Studio Code I use and recommend.

@@ -1,14 +1,3 @@
-.icon-list {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  padding: 0;
-}
-
-.icon-list a:not(:last-child) {
-  margin-right: 1em;
-}
-
 .link-heading {
   margin-bottom: 0;
 }
@@ -17,11 +6,24 @@
   display: inline-block; /* use full height of heading block */
 }
 
+.icon-list,
+.link-info,
 .tag-list {
   list-style-type: none;
   padding: 0;
 }
 
+.icon-list {
+  display: flex;
+  align-items: center;
+}
+
+.link-info li,
 .tag-list li {
   display: inline;
+}
+
+.link-info li:not(:last-child),
+.icon-list a:not(:last-child) {
+  margin-right: 1em;
 }
