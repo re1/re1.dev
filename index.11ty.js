@@ -18,7 +18,7 @@ module.exports = class Index {
         <p>
           Let's get in touch and have a coffee if you happen to be in Vienna, Austria!<br />
           <!-- not using rel=author here as it is said to increase spam -->
-          → <b><i><a href="mailto:markus@re1.dev" title="Email markus@re1.dev" rel="me">markus@re1.dev</a></i></b>
+          ~ <b><i><a href="mailto:markus@re1.dev" title="Email markus@re1.dev" rel="me">markus@re1.dev</a></i></b>
         </p>
       </main>
 
@@ -32,7 +32,8 @@ module.exports = class Index {
           </svg>
         </a>
 
-        <img alt="A friendly dog" class="dog" loading="lazy" src="static/images/dog.svg" />
+        <img alt="A friendly dog" loading="lazy" src="static/images/dog.svg" 
+             style="float: right; width: 60%; max-width: 16em; margin-bottom: 2em;" />
       </footer>
     `
   }

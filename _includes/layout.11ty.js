@@ -43,7 +43,7 @@ module.exports = ({ content, lang, styles, title }) => `
         <nav>
           <ul>
             <li>
-              <a href="/"><strong>→ re1</strong></a>
+              <a href="/"><strong>~ re1</strong></a>
             </li>
             <li>
               <a href="/til" title="Today I learned">TIL</a>
