@@ -53,7 +53,8 @@ p a {
   transition: all 0.6s;
 }
 
-p a:hover {
+p a:hover,
+p a:focus {
   background-size: 100%;
 }
 
