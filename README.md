@@ -1,7 +1,7 @@
-# Yet another draggy weblog
+# re1 – Web developer
 
-This is my personal website and playground but currently a work in progress. Most updates are rarely used CSS features.
+My personal website and playground slowly growing into a digital garden.
 
 ## Attribution
 
-The page is set in [iA](https://ia.net)'s [iA Writer Quattro](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Quattro) font which is based on [IBM Plex](https://github.com/IBM/plex) and headings in [Inknut Antiqua](https://github.com/clauseggers/Inknut-Antiqua) by [Claus Eggers Sørensen](https://forthehearts.net/).
+The page is set in [Arrowtype](https://arrowtype.com/)'s variable font [Recursive](https://www.recursive.design/).
