@@ -1,5 +1,5 @@
 ---
-title: Music
+title: Books
 layout: wiki/links
 links:
   - title: Moonwalking with Einstein
