@@ -3,6 +3,13 @@ title: Wiki
 layout: wiki/links
 linkHeadings: h3
 links:
+  - title: Optimizing Web Fonts
+    link: https://blog.smockle.com/2019/05/24/optimizing-web-fonts.html
+    author: Clay Miller
+    date: 2019-05-24
+    note: Optimize fonts by removing unused characters.
+      - fonts
+      - performance
   - title: Work responsibly
     link: https://www.workresponsibly.org/
     note: A collection of resources for a healthy and balanced approach to work.
@@ -34,8 +41,8 @@ links:
     date: 2016-06-12
     tags:
       - css
+      - fonts
       - performance
-      - webfonts
   - title: 'CSS scaling: choose isolation or abstraction – not both'
     link: https://benfrain.com/css-scaling-choose-isolation-or-abstraction-not-both/
     author: Ben Frain
