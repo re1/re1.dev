@@ -12,6 +12,9 @@ links:
   - title: Glaze Illustrations
     link: https://www.glazestock.com/
     note: Free illustrations for everything.
+  - title: Open Doodles - Free sketchy illustrations
+    link: https://www.opendoodles.com/
+    note: A library of sketchy illustrations of people free for personal and commercial use.
   - title: 404 Illustrations
     link: https://www.kapwing.com/404-illustrations
     note: Trendy 404 page images for your next project.
