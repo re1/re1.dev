@@ -3,11 +3,21 @@ title: Wiki
 layout: wiki/links
 linkHeadings: h3
 links:
+  - title: Getting in
+    link: https://medium.com/@IGLevine/so-lots-of-people-have-responded-to-my-encouragement-to-get-into-the-industry-asking-how-do-i-get-e2d0cd738733#.kyqgwwfsa
+    author: Ken Levine
+    note: <q>So lots of people have responded to my encouragement to get into the industry, asking, how do I get in?</q> <cite>– Ken Levine</cite>
+    tags:
+      - creativity
+      - games
+      - life
+      - writing
   - title: Optimizing Web Fonts
     link: https://blog.smockle.com/2019/05/24/optimizing-web-fonts.html
     author: Clay Miller
     date: 2019-05-24
     note: Optimize fonts by removing unused characters.
+    tags:
       - fonts
       - performance
   - title: Work responsibly
