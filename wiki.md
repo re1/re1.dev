@@ -7,6 +7,8 @@ links:
     link: https://medium.com/@IGLevine/so-lots-of-people-have-responded-to-my-encouragement-to-get-into-the-industry-asking-how-do-i-get-e2d0cd738733#.kyqgwwfsa
     author: Ken Levine
     note: <q>So lots of people have responded to my encouragement to get into the industry, asking, how do I get in?</q> <cite>– Ken Levine</cite>
+    read: 7 minutes
+    date: 2016-05-24
     tags:
       - creativity
       - games
