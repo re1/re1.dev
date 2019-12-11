@@ -4,6 +4,7 @@ layout: wiki/links
 styles:
   - /static/css/components/wiki/links.css
   - /static/css/prism.css
+linkHeadings: h3
 links:
   - title: A more helpful makefile
     link: https://jakemccrary.com/blog/2018/12/27/a-more-helpful-makefile/
@@ -39,3 +40,5 @@ links:
    ```bash
    resize2fs /dev/vg/lv
    ```
+
+## Various links

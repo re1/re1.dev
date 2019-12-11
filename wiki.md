@@ -104,6 +104,8 @@ links:
 
 **[Design](/wiki/design)**
 
+**[Linux](/wiki/linux)**
+
 **[Music](/wiki/music)**
 
 **[Privacy](/wiki/privacy)**
