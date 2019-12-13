@@ -1,0 +1,11 @@
+p a {
+  background-image: linear-gradient(transparent 60%, var(--accent) 60%);
+  background-repeat: no-repeat;
+  background-size: 0;
+  transition: all 0.6s;
+}
+
+p a:hover,
+p a:focus {
+  background-size: 100%;
+}

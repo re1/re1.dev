@@ -25,11 +25,16 @@ module.exports = ({ content, lang, styles, title }) => `
               .join('')
           : ''
       }
-      <!-- Load unimportant CSS asynchronously -->
+      <!-- Load less important CSS asynchronously -->
+      <link rel="preload" href="/static/css/base/animations.css" as="style" />
+      <link rel="stylesheet" href="/static/css/base/animations.css" media="print" onload="this.media='(prefers-reduced-motion: no-preference)'" />
+
       <link rel="preload" href="/static/css/base/scrollbar.css" as="style" />
       <link rel="stylesheet" href="/static/css/base/scrollbar.css" media="print" onload="this.media='all'" />
+
       <!-- Fallback to synchronous CSS loading without JavaScript -->
       <noscript>
+        <link rel="stylesheet" href="/static/css/base/animations.css" media="(prefers-reduced-motion: no-preference)">
         <link rel="stylesheet" href="/static/css/base/scrollbar.css" />
       </noscript>
 

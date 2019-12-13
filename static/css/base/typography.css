@@ -46,16 +46,8 @@ a {
 }
 
 p a {
-  background-image: linear-gradient(transparent 60%, var(--accent) 60%);
-  background-repeat: no-repeat;
-  background-size: 0;
+  /* fallback for text-decoration-thickness */
   box-shadow: inset 0 -1px var(--fg);
-  transition: all 0.6s;
-}
-
-p a:hover,
-p a:focus {
-  background-size: 100%;
 }
 
 @supports (text-decoration-thickness: 0.05em) {
@@ -68,7 +60,8 @@ p a:focus {
 }
 
 p {
-  max-width: 45em; /* fallback for ch unit */
+  /* fallback for ch unit */
+  max-width: 45em;
   max-width: 80ch;
 }
 
