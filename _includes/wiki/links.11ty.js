@@ -47,9 +47,7 @@ module.exports = class List {
             <article>
               ${
                 link.link
-                  ? `<${linkHeadings} class="link-heading"><a href="${
-                      link.link
-                    }">${link.title}</a></${linkHeadings}>`
+                  ? `<${linkHeadings} class="link-heading"><a href="${link.link}">${link.title}</a></${linkHeadings}>`
                   : `<${linkHeadings}>${link.title}</${linkHeadings}>`
               }
               ${

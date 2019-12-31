@@ -3,12 +3,20 @@ title: Wiki
 layout: wiki/links
 linkHeadings: h3
 links:
+  - title: Software development 450 words per minute
+    link: https://www.vincit.fi/fi/software-development-450-words-per-minute/
+    author: Tuukka Ojala
+    date: 2017-08-28
+    read: 8 minutes
+    tags:
+      - accessibility
+      - blindness
   - title: Getting in
     link: https://medium.com/@IGLevine/so-lots-of-people-have-responded-to-my-encouragement-to-get-into-the-industry-asking-how-do-i-get-e2d0cd738733#.kyqgwwfsa
     author: Ken Levine
     note: <q>So lots of people have responded to my encouragement to get into the industry, asking, how do I get in?</q> <cite>– Ken Levine</cite>
-    read: 7 minutes
     date: 2016-05-24
+    read: 7 minutes
     tags:
       - creativity
       - games
