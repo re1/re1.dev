@@ -3,6 +3,21 @@ title: Wiki
 layout: wiki/links
 linkHeadings: h3
 links:
+  - title: How to See
+    link: https://matthewstrom.com/writing/learning-how-to-see
+    author: Matthew Ström
+    date: 2019-09-24
+    read: 8 minutes
+    tags:
+      - creativity
+      - life
+      - workflow
+  - title: Imperfect
+    link: https://css-irl.info/imperfect/
+    author: Michelle Barker
+    date: 2020-01-03
+    tags:
+      - life
   - title: Rich
     link: https://chriscoyier.net/2019/12/31/rich/
     author: Chris Coyier
