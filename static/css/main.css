@@ -1,6 +1,6 @@
 :root {
   --bg: #fff;
-  --fg: #1b1814;
+  --fg: #191919;
   --primary: #e66;
   --accent: #6ea;
   --accent-dark: #4c8;
@@ -16,6 +16,7 @@ body {
   margin: 2em auto;
   width: 80%;
   color: var(--fg);
+  background-color: var(--bg);
 }
 
 nav ul {
