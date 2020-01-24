@@ -16,7 +16,6 @@ body {
   margin: 2em auto;
   width: 80%;
   color: var(--fg);
-  background-color: var(--bg);
 }
 
 nav ul {

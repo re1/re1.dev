@@ -25,6 +25,7 @@ body {
 }
 
 cite,
+em,
 i {
   --slnt: 'slnt' -15;
 }
