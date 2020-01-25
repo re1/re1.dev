@@ -7,6 +7,20 @@ styles:
 
 # TIL – Today I learned
 
+## TIL #8
+
+CSS variables can be used in `style` attributes.
+
+```html
+<style>
+  p {
+    color: var(--color);
+  }
+</style>
+
+<p style="--color: red">Red text</p>
+```
+
 ## TIL #7
 
 A horizontal bar of variable height can be animated through `background-size` when using a linear gradient background.
