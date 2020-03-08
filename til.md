@@ -7,6 +7,20 @@ styles:
 
 # TIL – Today I learned
 
+## TIL #9
+
+Aliases for git commands can be defined from [`.gitconfig`](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration).
+
+```ini
+[alias]
+a = add
+c = commit -S -e
+s = status
+p = push origin master
+l = log --oneline --decorate --graph
+…
+```
+
 ## TIL #8
 
 CSS variables can be used in `style` attributes.
