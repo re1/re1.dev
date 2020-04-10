@@ -3,6 +3,14 @@ title: Wiki
 layout: wiki/links
 linkHeadings: h3
 links:
+  - title: Embracing modern image formats
+    link: https://joshwcomeau.com/performance/embracing-modern-image-formats/
+    author: Joshua Comeau
+    tags:
+      - HTML
+      - performance
+      - images
+      - React
   - title: Words
     link: https://justinjackson.ca/words.html
     author: Justin Jackson
