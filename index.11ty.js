@@ -8,7 +8,6 @@ module.exports = class Index {
 
   render() {
     return /*html*/ `
-      
       <main>
         <div class="hero">
           <p class="hero__before">Hi! I'm Markus, a </p>

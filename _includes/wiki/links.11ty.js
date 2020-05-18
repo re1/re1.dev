@@ -7,7 +7,7 @@ module.exports = class List {
   }
 
   icon(icon, iconTitle, iconAlt, link, linkTitle) {
-    return `
+    return /*html*/ `
       <a href="${link}" rel="external" title="Find ${linkTitle} on ${iconTitle}">
         <img src="/static/images/${icon}.svg" alt="${iconAlt}" width=32>
       </a>`

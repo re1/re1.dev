@@ -58,7 +58,7 @@ A horizontal bar of variable height can be animated through `background-size` wh
 
 <style>
 #til-7 + label {
-  background-image: linear-gradient(transparent 60%, #6ea 60%);
+  background-image: linear-gradient(transparent 60%, var(--accent) 60%);
   background-repeat: no-repeat;
   background-size: 0;
   transition: all 0.6s;
