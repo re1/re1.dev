@@ -2,12 +2,12 @@
 title: Visual Studio Code extensions
 layout: wiki/links
 links:
-  - title: Ayu
-    author: teabyii
-    note: A simple theme with bright colors that comes in three versions.
+  - title: Night Owl
+    author: Sarah Drasner
+    note: A VS Code theme for the night owls out there.
     links:
-      - https://github.com/ayu-theme/vscode-ayu
-      - https://marketplace.visualstudio.com/items?itemName=teabyii.ayu
+      - https://marketplace.visualstudio.com/items?itemName=sdras.night-owl
+      - https://github.com/sdras/night-owl-vscode-theme
   - title: Bracket Pair Colorizer 2
     author: CoenraadS
     note: A customizable extension for colorizing matching brackets.
