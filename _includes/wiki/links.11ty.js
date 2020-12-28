@@ -6,6 +6,12 @@ module.exports = class List {
     }
   }
 
+  // quite hacky but works
+  isoDate(dateString) {
+    let date = new Date(dateString)
+    return `${date.toISOString().slice(0, 10)}`
+  }
+
   icon(icon, iconTitle, iconAlt, link, linkTitle) {
     return /*html*/ `
       <a href="${link}" rel="external" title="Find ${linkTitle} on ${iconTitle}">
@@ -68,7 +74,7 @@ module.exports = class List {
                       }
                       ${
                         link.date
-                          ? `<li><b>Date</b>: ${link.date.toLocaleDateString()}<span>`
+                          ? `<li><b>Date</b>: ${this.isoDate(link.date)}<span>`
                           : ''
                       }
                       ${link.read ? `<li><b>Read</b>: ${link.read}</li>` : ''}
