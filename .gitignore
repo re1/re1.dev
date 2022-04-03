@@ -1,5 +1,6 @@
 .vscode
+.idea
 node_modules
-_site/
+_site
 
 *.log
