@@ -11,16 +11,9 @@
 
 body {
   font-family: 'Recursive', 'iA Writer Quattro', 'IBM Plex Sans', Arial,
-    Helvetica, sans-serif, sans-serif;
+    Helvetica, sans-serif;
   line-height: 1.618;
   font-weight: 350;
-}
-
-@supports (font-variation-settings: normal) {
-  body {
-    font-family: 'Recursive Sans', 'iA Writer Quattro', 'IBM Plex Sans', Arial,
-      Helvetica, sans-serif, sans-serif;
-  }
 }
 
 cite,
@@ -35,9 +28,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 1.5em 0 0.5em;
   --mono: 'MONO' 0.1;
   --casl: 'CASL' 0.5;
+
+  margin: 1.5em 0 0.5em;
 }
 
 a {
@@ -60,15 +54,14 @@ p a {
 }
 
 p {
-  /* fallback for ch unit */
-  max-width: 45em;
   max-width: 80ch;
 }
 
 code,
 pre {
-  font-family: 'Recursive', 'Fira Code', 'Fira Mono', 'IBM Plex Mono',
-    'Roboto Mono', monospace;
   --mono: 'MONO' 1;
   --casl: 'CASL' 0.2;
+
+  font-family: 'Recursive', 'Fira Code', 'Fira Mono', 'IBM Plex Mono',
+    'Roboto Mono', monospace;
 }
