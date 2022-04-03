@@ -2,6 +2,14 @@
 title: Code
 layout: wiki/links
 links:
+  - title: Which SVG technique performs best for way too many icons?
+    author: Tyler Sticka
+    link: https://cloudfour.com/thinks/svg-icon-stress-test/
+    date: 2021-10-28
+    tags:
+      - svg
+      - icons
+      - performance
   - title: Getters/Setters. Evil. Period.
     link: https://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html
     author: Yegor Bugayenko
