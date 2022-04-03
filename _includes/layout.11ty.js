@@ -1,6 +1,6 @@
-module.exports = ({ content, lang, styles, title }) => `
+module.exports = ({ content, lang, styles, title }) => /*html*/ `
   <!DOCTYPE html>
-  <html lang="${lang || 'en'}" prefix="og: http://ogp.me/ns#">
+  <html lang="${lang || 'en'}" prefix="og:http://ogp.me/ns#">
     <head>
       <title>
         ${title ? `${title} | re1` : 're1 – Web developer'}
@@ -21,7 +21,7 @@ module.exports = ({ content, lang, styles, title }) => `
       ${
         styles
           ? styles
-              .map(style => `<link rel="stylesheet" href="${style}" />`)
+              .map((style) => `<link rel="stylesheet" href="${style}" />`)
               .join('')
           : ''
       }
@@ -38,9 +38,9 @@ module.exports = ({ content, lang, styles, title }) => `
         <link rel="stylesheet" href="/static/css/base/scrollbar.css" />
       </noscript>
 
-      <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />
+      <link rel="icon" type="image/png" sizes="any" href="/static/favicons/favicon.png" />
+      <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext x='0' y='14'%3E🔥%3C/text%3E%3C/svg%3E">
+      <link rel="apple-touch-icon" href="/static/favicons/apple-touch-icon.png" />
       <link rel="manifest" href="/static/favicons/site.webmanifest" />
     </head>
     <body>
