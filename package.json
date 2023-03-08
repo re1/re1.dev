@@ -1,15 +1,17 @@
 {
+  "name": "re1.dev",
+  "packageManager": "yarn@3.4.1",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
-    "@fontsource/recursive": "^4.5.4",
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "@fontsource/recursive": "^4.5.13",
     "html-minifier": "^4.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "^2.8.4"
   },
   "scripts": {
-    "develop": "yarn eleventy --serve",
-    "build": "yarn eleventy"
+    "develop": "yarn run eleventy --serve",
+    "build": "yarn run eleventy"
   }
 }
