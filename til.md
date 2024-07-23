@@ -137,10 +137,6 @@ input:not(:placeholder-shown) + button {
 
 **Note**: The `::placeholder` pseudo element styles the placeholder text.
 
-## TIL #2
-
-Editor theme variants are meant to be used on different daytimes.
-
 ## TIL #1
 
 CSS **`box-shadow`** values are animatable.
