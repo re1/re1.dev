@@ -96,8 +96,6 @@ links:
 
 # Wiki
 
-**[Books](/wiki/books)**
-
 **[Code](/wiki/code)**
 
 **[Design](/wiki/design)**
@@ -107,7 +105,5 @@ links:
 **[Music](/wiki/music)**
 
 **[Privacy](/wiki/privacy)**
-
-**[Visual Studio Code](/wiki/vscode)**
 
 ## Various links
