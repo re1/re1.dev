@@ -49,7 +49,7 @@ module.exports = ({ content }) => `
       ${content}
     </body>
   </html>
-`
+`;
 ```
 
 When templating with JSTL the map function and lambda expressions (arrow functions) will become your best friend.
@@ -60,8 +60,8 @@ Create a new file `links.11ty.js`:
 module.exports = class Links {
   data() {
     return {
-      layout: 'layout',
-    }
+      layout: "layout",
+    };
   }
 
   render({ content, links }) {
@@ -69,11 +69,13 @@ module.exports = class Links {
       ${content}
 
       <ul>
-        ${links.map(link => `<li><a href="${link}">${link}</a></li>`).join('')}
+        ${
+      links.map((link) => `<li><a href="${link}">${link}</a></li>`).join("")
+    }
       </ul>
-    `
+    `;
   }
-}
+};
 ```
 
 Maybe you want to gather useful resources on using JSTL with Eleventy.

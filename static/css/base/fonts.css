@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Recursive';
+  font-family: "Recursive";
   font-style: oblique 0deg 15deg;
   font-display: swap;
   font-weight: 300 1000;
-  src: url('/static/fonts/recursive.woff2') format('woff2');
+  src: url("/static/fonts/recursive.woff2") format("woff2");
 }

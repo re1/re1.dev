@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "@11ty/eleventy": "npm:@11ty/eleventy@^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "npm:@11ty/eleventy-plugin-syntaxhighlight@^5.0.0"
+  },
+  "tasks": {
+    "build": "deno run -A npm:@11ty/eleventy",
+    "dev": "deno run -A npm:@11ty/eleventy --serve"
+  },
+  "fmt": {
+    "proseWrap": "preserve"
+  }
+}

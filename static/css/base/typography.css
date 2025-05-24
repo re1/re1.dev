@@ -1,17 +1,26 @@
 :root {
-  --mono: 'MONO' 0.2;
-  --casl: 'CASL' 0;
-  --slnt: 'slnt' 0;
-  --ital: 'ital' 0.5;
+  --mono: "MONO" 0.2;
+  --casl: "CASL" 0;
+  --slnt: "slnt" 0;
+  --ital: "ital" 0.5;
 }
 
 * {
-  font-variation-settings: var(--mono), var(--casl), var(--slnt), var(--ital);
+  font-variation-settings:
+    var(--mono),
+    var(--casl),
+    var(--slnt),
+    var(--ital);
 }
 
 body {
-  font-family: 'Recursive', 'iA Writer Quattro', 'IBM Plex Sans', Arial,
-    Helvetica, sans-serif;
+  font-family:
+    "Recursive",
+    "iA Writer Quattro",
+    "IBM Plex Sans",
+    Arial,
+    Helvetica,
+    sans-serif;
   line-height: 1.618;
   font-weight: 350;
 }
@@ -19,7 +28,7 @@ body {
 cite,
 em,
 i {
-  --slnt: 'slnt' -15;
+  --slnt: "slnt" -15;
 }
 
 h1,
@@ -28,8 +37,8 @@ h3,
 h4,
 h5,
 h6 {
-  --mono: 'MONO' 0.1;
-  --casl: 'CASL' 0.5;
+  --mono: "MONO" 0.1;
+  --casl: "CASL" 0.5;
 
   margin: 1.5em 0 0.5em;
 }
@@ -59,9 +68,14 @@ p {
 
 code,
 pre {
-  --mono: 'MONO' 1;
-  --casl: 'CASL' 0.2;
+  --mono: "MONO" 1;
+  --casl: "CASL" 0.2;
 
-  font-family: 'Recursive', 'Fira Code', 'Fira Mono', 'IBM Plex Mono',
-    'Roboto Mono', monospace;
+  font-family:
+    "Recursive",
+    "Fira Code",
+    "Fira Mono",
+    "IBM Plex Mono",
+    "Roboto Mono",
+    monospace;
 }
