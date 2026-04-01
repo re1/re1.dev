@@ -19,12 +19,12 @@ export default ({ content, lang, styles, title }) => /*html*/ `
       <link rel="stylesheet" href="/static/css/components/header.css" />
       <!-- Include additional stylesheets from style parameter -->
       ${
-  styles
-    ? styles
-      .map((style) => `<link rel="stylesheet" href="${style}" />`)
-      .join("")
-    : ""
-}
+        styles
+          ? styles
+              .map((style) => `<link rel="stylesheet" href="${style}" />`)
+              .join("")
+          : ""
+      }
       <!-- Load less important CSS asynchronously -->
       <link rel="preload" href="/static/css/base/animations.css" as="style" />
       <link rel="stylesheet" href="/static/css/base/animations.css" media="print" onload="this.media='(prefers-reduced-motion: no-preference)'" />

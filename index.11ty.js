@@ -21,7 +21,8 @@ class Index {
             />
           </svg>
 
-          <p class="hero__before">Hi! I'm Markus, a</p>
+          <br />
+          <b>Hi! I'm Markus, a</b>
           <h1 class="hero__title">front-end web developer.</h1>
         </div>
 

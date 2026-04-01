@@ -7,7 +7,7 @@ links:
     links:
       - https://open.spotify.com/track/3OrqExOwr13y6UCI1LGhA4
       - https://youtu.be/96lwAGESRAY
-    note: Sung as a duet between Honey Sugarman (Jane Krakowski) and Colman Domingo (Eddie) during Season 4, Episode 2 of BoJack Horseman.
+    note: Sung as a duet between Honey Sugarman (Jane Krakowski) and Eddie (Colman Domingo) during Season 4, Episode 2 of BoJack Horseman.
   - title: Medusa in Chains
     artist: The Fratellis
     links:
